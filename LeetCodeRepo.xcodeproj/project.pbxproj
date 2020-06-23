@@ -6,10 +6,77 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXFileReference section */
+		8D6A6B6224A1954B00AC9F9F /* 1. Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. Two Sum.swift"; sourceTree = "<group>"; };
+		8D6A6B6324A1D7AC00AC9F9F /* 7. Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. Reverse Integer.swift"; sourceTree = "<group>"; };
+		8D6A6B6424A1D83E00AC9F9F /* 9. Palindrome Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. Palindrome Number.swift"; sourceTree = "<group>"; };
+		8D6A6B6524A1D97500AC9F9F /* 13. Roman to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "13. Roman to Integer.swift"; sourceTree = "<group>"; };
+		8D6A6B6624A1DA7000AC9F9F /* 14. Longest Common Prefix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "14. Longest Common Prefix.swift"; sourceTree = "<group>"; };
+		8D6A6B6724A1DB2A00AC9F9F /* 20. Valid Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "20. Valid Parentheses.swift"; sourceTree = "<group>"; };
+		8D6A6B6824A1DBC800AC9F9F /* 21. Merge Two Sorted Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "21. Merge Two Sorted Lists.swift"; sourceTree = "<group>"; };
+		8D6A6B6924A1DC1000AC9F9F /* 26. Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "26. Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
+		8D6A6B6A24A1DCC500AC9F9F /* 27. Remove Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "27. Remove Element.swift"; sourceTree = "<group>"; };
+		8D6A6B6B24A1DD5500AC9F9F /* 28. Implement strStr().swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "28. Implement strStr().swift"; sourceTree = "<group>"; };
+		8D6A6B6C24A1DDD200AC9F9F /* 35. Search Insert Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "35. Search Insert Position.swift"; sourceTree = "<group>"; };
+		8D6A6B6D24A1DE4400AC9F9F /* 53. Maximum Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "53. Maximum Subarray.swift"; sourceTree = "<group>"; };
+		8D6A6B6E24A1DEF300AC9F9F /* 58. Length of Last Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "58. Length of Last Word.swift"; sourceTree = "<group>"; };
+		8D6A6B6F24A1DF4400AC9F9F /* 66. Plus One.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "66. Plus One.swift"; sourceTree = "<group>"; };
+		8D6A6B7024A1DFB500AC9F9F /* 67. Add Binary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "67. Add Binary.swift"; sourceTree = "<group>"; };
+		8D6A6B7124A1E02500AC9F9F /* 69. Sqrt(x).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "69. Sqrt(x).swift"; sourceTree = "<group>"; };
+		8D6A6B7224A1E0A000AC9F9F /* 70. Climbing Stairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "70. Climbing Stairs.swift"; sourceTree = "<group>"; };
+		8D6A6B7324A1E0FE00AC9F9F /* 83. Remove Duplicates from Sorted List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "83. Remove Duplicates from Sorted List.swift"; sourceTree = "<group>"; };
+		8D6A6B7424A1E15700AC9F9F /* 88. Merge Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "88. Merge Sorted Array.swift"; sourceTree = "<group>"; };
+		8D6A6B7524A1E1C100AC9F9F /* 100. Same Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "100. Same Tree.swift"; sourceTree = "<group>"; };
+		8D6A6B7624A1E23200AC9F9F /* 101. Symmetric Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "101. Symmetric Tree.swift"; sourceTree = "<group>"; };
+		8D6A6B7724A1E2A400AC9F9F /* 112. Path Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "112. Path Sum.swift"; sourceTree = "<group>"; };
+		8D6A6B7824A1E31800AC9F9F /* 118. Pascal's Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "118. Pascal's Triangle.swift"; sourceTree = "<group>"; };
+		8D6A6B7924A1E3A100AC9F9F /* 119. Pascal's Triangle II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "119. Pascal's Triangle II.swift"; sourceTree = "<group>"; };
+		8D6A6B7A24A1E41F00AC9F9F /* 121. Best Time to Buy and Sell Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "121. Best Time to Buy and Sell Stock.swift"; sourceTree = "<group>"; };
+		8D6A6B7B24A1E47300AC9F9F /* 122. Best Time to Buy and Sell Stock II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "122. Best Time to Buy and Sell Stock II.swift"; sourceTree = "<group>"; };
+		8D6A6B7C24A1E4D700AC9F9F /* 136. Single Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "136. Single Number.swift"; sourceTree = "<group>"; };
+		8D6A6B7D24A1E52500AC9F9F /* 169. Majority Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "169. Majority Element.swift"; sourceTree = "<group>"; };
+		8D6A6B7E24A1E59800AC9F9F /* 190. Reverse Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "190. Reverse Bits.swift"; sourceTree = "<group>"; };
+		8D6A6B7F24A1E61300AC9F9F /* 226. Invert Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "226. Invert Binary Tree.swift"; sourceTree = "<group>"; };
+		8D6A6B8024A1E69400AC9F9F /* 371. Sum of Two Integers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "371. Sum of Two Integers.swift"; sourceTree = "<group>"; };
+		8D6A6B8124A1E79F00AC9F9F /* 704. Binary Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "704. Binary Search.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		8D6A6B5B24A1951D00AC9F9F = {
 			isa = PBXGroup;
 			children = (
+				8D6A6B6224A1954B00AC9F9F /* 1. Two Sum.swift */,
+				8D6A6B6324A1D7AC00AC9F9F /* 7. Reverse Integer.swift */,
+				8D6A6B6424A1D83E00AC9F9F /* 9. Palindrome Number.swift */,
+				8D6A6B6524A1D97500AC9F9F /* 13. Roman to Integer.swift */,
+				8D6A6B6624A1DA7000AC9F9F /* 14. Longest Common Prefix.swift */,
+				8D6A6B6724A1DB2A00AC9F9F /* 20. Valid Parentheses.swift */,
+				8D6A6B6824A1DBC800AC9F9F /* 21. Merge Two Sorted Lists.swift */,
+				8D6A6B6924A1DC1000AC9F9F /* 26. Remove Duplicates from Sorted Array.swift */,
+				8D6A6B6A24A1DCC500AC9F9F /* 27. Remove Element.swift */,
+				8D6A6B6B24A1DD5500AC9F9F /* 28. Implement strStr().swift */,
+				8D6A6B6C24A1DDD200AC9F9F /* 35. Search Insert Position.swift */,
+				8D6A6B6D24A1DE4400AC9F9F /* 53. Maximum Subarray.swift */,
+				8D6A6B6E24A1DEF300AC9F9F /* 58. Length of Last Word.swift */,
+				8D6A6B6F24A1DF4400AC9F9F /* 66. Plus One.swift */,
+				8D6A6B7024A1DFB500AC9F9F /* 67. Add Binary.swift */,
+				8D6A6B7124A1E02500AC9F9F /* 69. Sqrt(x).swift */,
+				8D6A6B7224A1E0A000AC9F9F /* 70. Climbing Stairs.swift */,
+				8D6A6B7324A1E0FE00AC9F9F /* 83. Remove Duplicates from Sorted List.swift */,
+				8D6A6B7424A1E15700AC9F9F /* 88. Merge Sorted Array.swift */,
+				8D6A6B7524A1E1C100AC9F9F /* 100. Same Tree.swift */,
+				8D6A6B7624A1E23200AC9F9F /* 101. Symmetric Tree.swift */,
+				8D6A6B7724A1E2A400AC9F9F /* 112. Path Sum.swift */,
+				8D6A6B7824A1E31800AC9F9F /* 118. Pascal's Triangle.swift */,
+				8D6A6B7924A1E3A100AC9F9F /* 119. Pascal's Triangle II.swift */,
+				8D6A6B7A24A1E41F00AC9F9F /* 121. Best Time to Buy and Sell Stock.swift */,
+				8D6A6B7B24A1E47300AC9F9F /* 122. Best Time to Buy and Sell Stock II.swift */,
+				8D6A6B7C24A1E4D700AC9F9F /* 136. Single Number.swift */,
+				8D6A6B7D24A1E52500AC9F9F /* 169. Majority Element.swift */,
+				8D6A6B7E24A1E59800AC9F9F /* 190. Reverse Bits.swift */,
+				8D6A6B7F24A1E61300AC9F9F /* 226. Invert Binary Tree.swift */,
+				8D6A6B8024A1E69400AC9F9F /* 371. Sum of Two Integers.swift */,
+				8D6A6B8124A1E79F00AC9F9F /* 704. Binary Search.swift */,
 			);
 			sourceTree = "<group>";
 		};
