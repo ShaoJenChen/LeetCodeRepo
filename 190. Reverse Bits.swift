@@ -48,11 +48,17 @@ class Solution {
             numberArray.append(0)
         }
         var result = 0
-        for (index, element) in numberArray.enumerated() {
-            if element == 0 { continue }
-            let powNumber = pow(Double(2), Double(numberArray.count - index - 1))
-            result += Int(powNumber)
+        
+//        for (index, element) in numberArray.enumerated() {
+//            if element == 0 { continue }
+//            let powNumber = pow(Double(2), Double(numberArray.count - index - 1))
+//            result += Int(powNumber)
+//        }
+        
+        for i in 0 ..< numberArray.count {
+            result |= numberArray[i] << (numberArray.count - i - 1)
         }
+        
         return result
     }
 }
