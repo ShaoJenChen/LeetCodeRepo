@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		8D5B187224A37629002F1D1D /* 111. Minimum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "111. Minimum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		8D6A6B6224A1954B00AC9F9F /* 1. Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. Two Sum.swift"; sourceTree = "<group>"; };
 		8D6A6B6324A1D7AC00AC9F9F /* 7. Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. Reverse Integer.swift"; sourceTree = "<group>"; };
 		8D6A6B6424A1D83E00AC9F9F /* 9. Palindrome Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "9. Palindrome Number.swift"; sourceTree = "<group>"; };
@@ -72,6 +73,7 @@
 				8D6A6B8224A2095700AC9F9F /* 104. Maximum Depth of Binary Tree.swift */,
 				8D6A6B8324A33A0600AC9F9F /* 108. Convert Sorted Array to Binary Search Tree.swift */,
 				8D6A6B8424A35DF100AC9F9F /* 110. Balanced Binary Tree.swift */,
+				8D5B187224A37629002F1D1D /* 111. Minimum Depth of Binary Tree.swift */,
 				8D6A6B7724A1E2A400AC9F9F /* 112. Path Sum.swift */,
 				8D6A6B7824A1E31800AC9F9F /* 118. Pascal's Triangle.swift */,
 				8D6A6B7924A1E3A100AC9F9F /* 119. Pascal's Triangle II.swift */,
