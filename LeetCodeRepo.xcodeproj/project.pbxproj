@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		8D3ACF2725B852DB00994980 /* 202. Happy Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "202. Happy Number.swift"; sourceTree = "<group>"; };
+		8D3ACF2825B8657200994980 /* 191. Number of 1 Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "191. Number of 1 Bits.swift"; sourceTree = "<group>"; };
 		8D5B187224A37629002F1D1D /* 111. Minimum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "111. Minimum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		8D6A6B6224A1954B00AC9F9F /* 1. Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. Two Sum.swift"; sourceTree = "<group>"; };
 		8D6A6B6324A1D7AC00AC9F9F /* 7. Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. Reverse Integer.swift"; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 			isa = PBXGroup;
 			children = (
 				8D6A6B7C24A1E4D700AC9F9F /* 136. Single Number.swift */,
+				8D3ACF2725B852DB00994980 /* 202. Happy Number.swift */,
 			);
 			path = HashTable;
 			sourceTree = "<group>";
@@ -167,6 +170,7 @@
 			isa = PBXGroup;
 			children = (
 				8D6A6B7E24A1E59800AC9F9F /* 190. Reverse Bits.swift */,
+				8D3ACF2825B8657200994980 /* 191. Number of 1 Bits.swift */,
 				8D6A6B8024A1E69400AC9F9F /* 371. Sum of Two Integers.swift */,
 			);
 			path = "Bit Manipulation";
