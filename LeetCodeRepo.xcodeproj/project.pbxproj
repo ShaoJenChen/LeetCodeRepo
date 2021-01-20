@@ -43,6 +43,7 @@
 		8D6A6B8224A2095700AC9F9F /* 104. Maximum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "104. Maximum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		8D6A6B8324A33A0600AC9F9F /* 108. Convert Sorted Array to Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "108. Convert Sorted Array to Binary Search Tree.swift"; sourceTree = "<group>"; };
 		8D6A6B8424A35DF100AC9F9F /* 110. Balanced Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "110. Balanced Binary Tree.swift"; sourceTree = "<group>"; };
+		8D951B9225B7EACA00E28A8A /* 563. Binary Tree Tilt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "563. Binary Tree Tilt.swift"; path = "Tree/563. Binary Tree Tilt.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -138,6 +139,7 @@
 				8D5B187224A37629002F1D1D /* 111. Minimum Depth of Binary Tree.swift */,
 				8D6A6B7724A1E2A400AC9F9F /* 112. Path Sum.swift */,
 				8D6A6B7F24A1E61300AC9F9F /* 226. Invert Binary Tree.swift */,
+				8D951B9225B7EACA00E28A8A /* 563. Binary Tree Tilt.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
