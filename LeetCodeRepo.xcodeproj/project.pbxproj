@@ -46,12 +46,16 @@
 		8D951B9225B7EACA00E28A8A /* 563. Binary Tree Tilt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "563. Binary Tree Tilt.swift"; path = "Tree/563. Binary Tree Tilt.swift"; sourceTree = SOURCE_ROOT; };
 		8D951B9325B7FDEB00E28A8A /* 303. Range Sum Query - Immutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "303. Range Sum Query - Immutable.swift"; sourceTree = "<group>"; };
 		8D951B9425B8129400E28A8A /* 283. Move Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "283. Move Zeroes.swift"; sourceTree = "<group>"; };
+		8D951B9625B81A5400E28A8A /* 155. Min Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "155. Min Stack.swift"; sourceTree = "<group>"; };
+		8D951B9725B8297800E28A8A /* 234. Palindrome Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234. Palindrome Linked List.swift"; sourceTree = "<group>"; };
+		8D951B9825B82E3600E28A8A /* 206. Reverse Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206. Reverse Linked List.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		8D6A6B5B24A1951D00AC9F9F = {
 			isa = PBXGroup;
 			children = (
+				8D951B9525B81A3F00E28A8A /* Stack */,
 				8D951B9125B7E87100E28A8A /* Bit Manipulation */,
 				8D951B9025B7E81300E28A8A /* Math */,
 				8D951B8F25B7E5D000E28A8A /* Tree */,
@@ -106,6 +110,8 @@
 			children = (
 				8D6A6B6824A1DBC800AC9F9F /* 21. Merge Two Sorted Lists.swift */,
 				8D6A6B7324A1E0FE00AC9F9F /* 83. Remove Duplicates from Sorted List.swift */,
+				8D951B9825B82E3600E28A8A /* 206. Reverse Linked List.swift */,
+				8D951B9725B8297800E28A8A /* 234. Palindrome Linked List.swift */,
 			);
 			path = "Linked List";
 			sourceTree = "<group>";
@@ -164,6 +170,14 @@
 				8D6A6B8024A1E69400AC9F9F /* 371. Sum of Two Integers.swift */,
 			);
 			path = "Bit Manipulation";
+			sourceTree = "<group>";
+		};
+		8D951B9525B81A3F00E28A8A /* Stack */ = {
+			isa = PBXGroup;
+			children = (
+				8D951B9625B81A5400E28A8A /* 155. Min Stack.swift */,
+			);
+			path = Stack;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
