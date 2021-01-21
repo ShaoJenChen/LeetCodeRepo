@@ -49,6 +49,8 @@
 		8D951B9625B81A5400E28A8A /* 155. Min Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "155. Min Stack.swift"; sourceTree = "<group>"; };
 		8D951B9725B8297800E28A8A /* 234. Palindrome Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "234. Palindrome Linked List.swift"; sourceTree = "<group>"; };
 		8D951B9825B82E3600E28A8A /* 206. Reverse Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206. Reverse Linked List.swift"; sourceTree = "<group>"; };
+		8D951B9925B8398100E28A8A /* 412. Fizz Buzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "412. Fizz Buzz.swift"; sourceTree = "<group>"; };
+		8D951B9A25B83D5D00E28A8A /* 125. Valid Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125. Valid Palindrome.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -125,6 +127,7 @@
 				8D6A6B6B24A1DD5500AC9F9F /* 28. Implement strStr().swift */,
 				8D6A6B6E24A1DEF300AC9F9F /* 58. Length of Last Word.swift */,
 				8D6A6B7024A1DFB500AC9F9F /* 67. Add Binary.swift */,
+				8D951B9A25B83D5D00E28A8A /* 125. Valid Palindrome.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			children = (
 				8D6A6B6324A1D7AC00AC9F9F /* 7. Reverse Integer.swift */,
 				8D6A6B6424A1D83E00AC9F9F /* 9. Palindrome Number.swift */,
+				8D951B9925B8398100E28A8A /* 412. Fizz Buzz.swift */,
 			);
 			path = Math;
 			sourceTree = "<group>";
