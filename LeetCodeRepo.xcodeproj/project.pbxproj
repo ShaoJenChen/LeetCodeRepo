@@ -53,6 +53,8 @@
 		8D951B9825B82E3600E28A8A /* 206. Reverse Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206. Reverse Linked List.swift"; sourceTree = "<group>"; };
 		8D951B9925B8398100E28A8A /* 412. Fizz Buzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "412. Fizz Buzz.swift"; sourceTree = "<group>"; };
 		8D951B9A25B83D5D00E28A8A /* 125. Valid Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125. Valid Palindrome.swift"; sourceTree = "<group>"; };
+		8D994B5C25B9B5210065952C /* 204. Count Primes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "204. Count Primes.swift"; sourceTree = "<group>"; };
+		8D994B5D25B9C15C0065952C /* 268. Missing Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "268. Missing Number.swift"; sourceTree = "<group>"; };
 		8DA73DBD25B9501200595123 /* 344. Reverse String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "344. Reverse String.swift"; sourceTree = "<group>"; };
 		8DA73DBE25B95CAA00595123 /* 387. First Unique Character in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "387. First Unique Character in a String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -99,6 +101,7 @@
 				8D6A6B7924A1E3A100AC9F9F /* 119. Pascal's Triangle II.swift */,
 				8D6A6B7B24A1E47300AC9F9F /* 122. Best Time to Buy and Sell Stock II.swift */,
 				8D6A6B7D24A1E52500AC9F9F /* 169. Majority Element.swift */,
+				8D994B5D25B9C15C0065952C /* 268. Missing Number.swift */,
 				8D951B9425B8129400E28A8A /* 283. Move Zeroes.swift */,
 			);
 			path = Array;
@@ -109,6 +112,7 @@
 			children = (
 				8D6A6B7C24A1E4D700AC9F9F /* 136. Single Number.swift */,
 				8D3ACF2725B852DB00994980 /* 202. Happy Number.swift */,
+				8D994B5C25B9B5210065952C /* 204. Count Primes.swift */,
 				8DA73DBE25B95CAA00595123 /* 387. First Unique Character in a String.swift */,
 			);
 			path = HashTable;
