@@ -53,6 +53,10 @@
 		8D951B9825B82E3600E28A8A /* 206. Reverse Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206. Reverse Linked List.swift"; sourceTree = "<group>"; };
 		8D951B9925B8398100E28A8A /* 412. Fizz Buzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "412. Fizz Buzz.swift"; sourceTree = "<group>"; };
 		8D951B9A25B83D5D00E28A8A /* 125. Valid Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125. Valid Palindrome.swift"; sourceTree = "<group>"; };
+		8D9975CF25BAB400007611B0 /* 237. Delete Node in a Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237. Delete Node in a Linked List.swift"; sourceTree = "<group>"; };
+		8D9975D025BACD38007611B0 /* 141. Linked List Cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141. Linked List Cycle.swift"; sourceTree = "<group>"; };
+		8D9975D125BADAF6007611B0 /* 160. Intersection of Two Linked Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "160. Intersection of Two Linked Lists.swift"; sourceTree = "<group>"; };
+		8D9975D225BAE019007611B0 /* 349. Intersection of Two Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "349. Intersection of Two Arrays.swift"; sourceTree = "<group>"; };
 		8DA73DBD25B9501200595123 /* 344. Reverse String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "344. Reverse String.swift"; sourceTree = "<group>"; };
 		8DA73DBE25B95CAA00595123 /* 387. First Unique Character in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "387. First Unique Character in a String.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,7 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				8D6A6B7C24A1E4D700AC9F9F /* 136. Single Number.swift */,
+				8D9975D125BADAF6007611B0 /* 160. Intersection of Two Linked Lists.swift */,
 				8D3ACF2725B852DB00994980 /* 202. Happy Number.swift */,
+				8D9975D225BAE019007611B0 /* 349. Intersection of Two Arrays.swift */,
 				8DA73DBE25B95CAA00595123 /* 387. First Unique Character in a String.swift */,
 			);
 			path = HashTable;
@@ -119,8 +125,10 @@
 			children = (
 				8D6A6B6824A1DBC800AC9F9F /* 21. Merge Two Sorted Lists.swift */,
 				8D6A6B7324A1E0FE00AC9F9F /* 83. Remove Duplicates from Sorted List.swift */,
+				8D9975D025BACD38007611B0 /* 141. Linked List Cycle.swift */,
 				8D951B9825B82E3600E28A8A /* 206. Reverse Linked List.swift */,
 				8D951B9725B8297800E28A8A /* 234. Palindrome Linked List.swift */,
+				8D9975CF25BAB400007611B0 /* 237. Delete Node in a Linked List.swift */,
 			);
 			path = "Linked List";
 			sourceTree = "<group>";
