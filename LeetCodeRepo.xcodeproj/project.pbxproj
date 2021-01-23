@@ -45,6 +45,9 @@
 		8D6A6B8224A2095700AC9F9F /* 104. Maximum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "104. Maximum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		8D6A6B8324A33A0600AC9F9F /* 108. Convert Sorted Array to Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "108. Convert Sorted Array to Binary Search Tree.swift"; sourceTree = "<group>"; };
 		8D6A6B8424A35DF100AC9F9F /* 110. Balanced Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "110. Balanced Binary Tree.swift"; sourceTree = "<group>"; };
+		8D803EE025BBDC200016A236 /* 509. Fibonacci Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509. Fibonacci Number.swift"; sourceTree = "<group>"; };
+		8D803EE225BC0B910016A236 /* 146. LRU Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "146. LRU Cache.swift"; sourceTree = "<group>"; };
+		8D803EE525BC447E0016A236 /* 200. Number of Islands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "200. Number of Islands.swift"; sourceTree = "<group>"; };
 		8D951B9225B7EACA00E28A8A /* 563. Binary Tree Tilt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "563. Binary Tree Tilt.swift"; path = "Tree/563. Binary Tree Tilt.swift"; sourceTree = SOURCE_ROOT; };
 		8D951B9325B7FDEB00E28A8A /* 303. Range Sum Query - Immutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "303. Range Sum Query - Immutable.swift"; sourceTree = "<group>"; };
 		8D951B9425B8129400E28A8A /* 283. Move Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "283. Move Zeroes.swift"; sourceTree = "<group>"; };
@@ -53,6 +56,7 @@
 		8D951B9825B82E3600E28A8A /* 206. Reverse Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206. Reverse Linked List.swift"; sourceTree = "<group>"; };
 		8D951B9925B8398100E28A8A /* 412. Fizz Buzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "412. Fizz Buzz.swift"; sourceTree = "<group>"; };
 		8D951B9A25B83D5D00E28A8A /* 125. Valid Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125. Valid Palindrome.swift"; sourceTree = "<group>"; };
+		8D96CB8025BAF90C000649EF /* 350. Intersection of Two Arrays II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "350. Intersection of Two Arrays II.swift"; sourceTree = "<group>"; };
 		8D994B5C25B9B5210065952C /* 204. Count Primes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "204. Count Primes.swift"; sourceTree = "<group>"; };
 		8D994B5D25B9C15C0065952C /* 268. Missing Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "268. Missing Number.swift"; sourceTree = "<group>"; };
 		8D9975CF25BAB400007611B0 /* 237. Delete Node in a Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "237. Delete Node in a Linked List.swift"; sourceTree = "<group>"; };
@@ -67,6 +71,8 @@
 		8D6A6B5B24A1951D00AC9F9F = {
 			isa = PBXGroup;
 			children = (
+				8D803EE425BC446E0016A236 /* DFS */,
+				8D803EE125BC0B800016A236 /* Design */,
 				8D951B9525B81A3F00E28A8A /* Stack */,
 				8D951B9125B7E87100E28A8A /* Bit Manipulation */,
 				8D951B9025B7E81300E28A8A /* Math */,
@@ -81,6 +87,22 @@
 			);
 			sourceTree = "<group>";
 		};
+		8D803EE125BC0B800016A236 /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				8D803EE225BC0B910016A236 /* 146. LRU Cache.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		8D803EE425BC446E0016A236 /* DFS */ = {
+			isa = PBXGroup;
+			children = (
+				8D803EE525BC447E0016A236 /* 200. Number of Islands.swift */,
+			);
+			path = DFS;
+			sourceTree = "<group>";
+		};
 		8D951B8925B7DFD500E28A8A /* Dynamic Programming */ = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +110,7 @@
 				8D6A6B7224A1E0A000AC9F9F /* 70. Climbing Stairs.swift */,
 				8D6A6B7A24A1E41F00AC9F9F /* 121. Best Time to Buy and Sell Stock.swift */,
 				8D951B9325B7FDEB00E28A8A /* 303. Range Sum Query - Immutable.swift */,
+				8D803EE025BBDC200016A236 /* 509. Fibonacci Number.swift */,
 			);
 			path = "Dynamic Programming";
 			sourceTree = "<group>";
@@ -119,6 +142,7 @@
 				8D3ACF2725B852DB00994980 /* 202. Happy Number.swift */,
 				8D994B5C25B9B5210065952C /* 204. Count Primes.swift */,
 				8D9975D225BAE019007611B0 /* 349. Intersection of Two Arrays.swift */,
+				8D96CB8025BAF90C000649EF /* 350. Intersection of Two Arrays II.swift */,
 				8DA73DBE25B95CAA00595123 /* 387. First Unique Character in a String.swift */,
 			);
 			path = HashTable;
