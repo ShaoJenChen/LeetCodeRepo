@@ -48,6 +48,9 @@
 		8D803EE025BBDC200016A236 /* 509. Fibonacci Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "509. Fibonacci Number.swift"; sourceTree = "<group>"; };
 		8D803EE225BC0B910016A236 /* 146. LRU Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "146. LRU Cache.swift"; sourceTree = "<group>"; };
 		8D803EE525BC447E0016A236 /* 200. Number of Islands.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "200. Number of Islands.swift"; sourceTree = "<group>"; };
+		8D87323E25BD8110004C9256 /* 242. Valid Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "242. Valid Anagram.swift"; sourceTree = "<group>"; };
+		8D87323F25BD896B004C9256 /* 49. Group Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "49. Group Anagrams.swift"; sourceTree = "<group>"; };
+		8D87324025BD8AD5004C9256 /* 1290. Convert Binary Number in a Linked List to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1290. Convert Binary Number in a Linked List to Integer.swift"; sourceTree = "<group>"; };
 		8D951B9225B7EACA00E28A8A /* 563. Binary Tree Tilt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "563. Binary Tree Tilt.swift"; path = "Tree/563. Binary Tree Tilt.swift"; sourceTree = SOURCE_ROOT; };
 		8D951B9325B7FDEB00E28A8A /* 303. Range Sum Query - Immutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "303. Range Sum Query - Immutable.swift"; sourceTree = "<group>"; };
 		8D951B9425B8129400E28A8A /* 283. Move Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "283. Move Zeroes.swift"; sourceTree = "<group>"; };
@@ -71,6 +74,7 @@
 		8D6A6B5B24A1951D00AC9F9F = {
 			isa = PBXGroup;
 			children = (
+				8D87323D25BD8101004C9256 /* Anagrams */,
 				8D803EE425BC446E0016A236 /* DFS */,
 				8D803EE125BC0B800016A236 /* Design */,
 				8D951B9525B81A3F00E28A8A /* Stack */,
@@ -101,6 +105,15 @@
 				8D803EE525BC447E0016A236 /* 200. Number of Islands.swift */,
 			);
 			path = DFS;
+			sourceTree = "<group>";
+		};
+		8D87323D25BD8101004C9256 /* Anagrams */ = {
+			isa = PBXGroup;
+			children = (
+				8D87323F25BD896B004C9256 /* 49. Group Anagrams.swift */,
+				8D87323E25BD8110004C9256 /* 242. Valid Anagram.swift */,
+			);
+			path = Anagrams;
 			sourceTree = "<group>";
 		};
 		8D951B8925B7DFD500E28A8A /* Dynamic Programming */ = {
@@ -216,6 +229,7 @@
 				8D6A6B7E24A1E59800AC9F9F /* 190. Reverse Bits.swift */,
 				8D3ACF2825B8657200994980 /* 191. Number of 1 Bits.swift */,
 				8D6A6B8024A1E69400AC9F9F /* 371. Sum of Two Integers.swift */,
+				8D87324025BD8AD5004C9256 /* 1290. Convert Binary Number in a Linked List to Integer.swift */,
 			);
 			path = "Bit Manipulation";
 			sourceTree = "<group>";
