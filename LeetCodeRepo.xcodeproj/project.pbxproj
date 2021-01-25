@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		8D2256CD25BE6D5A00259A0D /* 257. Binary Tree Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "257. Binary Tree Paths.swift"; sourceTree = "<group>"; };
 		8D3ACF2725B852DB00994980 /* 202. Happy Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "202. Happy Number.swift"; sourceTree = "<group>"; };
 		8D3ACF2825B8657200994980 /* 191. Number of 1 Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "191. Number of 1 Bits.swift"; sourceTree = "<group>"; };
 		8D5B187224A37629002F1D1D /* 111. Minimum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "111. Minimum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
@@ -71,6 +72,14 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		8D2256CC25BE6D3A00259A0D /* BackTracking */ = {
+			isa = PBXGroup;
+			children = (
+				8D2256CD25BE6D5A00259A0D /* 257. Binary Tree Paths.swift */,
+			);
+			path = BackTracking;
+			sourceTree = "<group>";
+		};
 		8D6A6B5B24A1951D00AC9F9F = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +111,7 @@
 		8D803EE425BC446E0016A236 /* DFS */ = {
 			isa = PBXGroup;
 			children = (
+				8D2256CC25BE6D3A00259A0D /* BackTracking */,
 				8D803EE525BC447E0016A236 /* 200. Number of Islands.swift */,
 			);
 			path = DFS;
