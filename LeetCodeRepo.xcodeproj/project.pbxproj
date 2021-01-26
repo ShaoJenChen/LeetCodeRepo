@@ -67,6 +67,7 @@
 		8D9975D025BACD38007611B0 /* 141. Linked List Cycle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "141. Linked List Cycle.swift"; sourceTree = "<group>"; };
 		8D9975D125BADAF6007611B0 /* 160. Intersection of Two Linked Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "160. Intersection of Two Linked Lists.swift"; sourceTree = "<group>"; };
 		8D9975D225BAE019007611B0 /* 349. Intersection of Two Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "349. Intersection of Two Arrays.swift"; sourceTree = "<group>"; };
+		8D9A12F625C039DA0025D2CC /* 171. Excel Sheet Column Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "171. Excel Sheet Column Number.swift"; sourceTree = "<group>"; };
 		8DA1BE2E25C01C1600BEA3D5 /* 217. Contains Duplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "217. Contains Duplicate.swift"; sourceTree = "<group>"; };
 		8DA73DBD25B9501200595123 /* 344. Reverse String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "344. Reverse String.swift"; sourceTree = "<group>"; };
 		8DA73DBE25B95CAA00595123 /* 387. First Unique Character in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "387. First Unique Character in a String.swift"; sourceTree = "<group>"; };
@@ -230,6 +231,7 @@
 			children = (
 				8D6A6B6324A1D7AC00AC9F9F /* 7. Reverse Integer.swift */,
 				8D6A6B6424A1D83E00AC9F9F /* 9. Palindrome Number.swift */,
+				8D9A12F625C039DA0025D2CC /* 171. Excel Sheet Column Number.swift */,
 				8D951B9925B8398100E28A8A /* 412. Fizz Buzz.swift */,
 			);
 			path = Math;
