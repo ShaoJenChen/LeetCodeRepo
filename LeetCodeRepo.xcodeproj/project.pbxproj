@@ -52,6 +52,8 @@
 		8D87323E25BD8110004C9256 /* 242. Valid Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "242. Valid Anagram.swift"; sourceTree = "<group>"; };
 		8D87323F25BD896B004C9256 /* 49. Group Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "49. Group Anagrams.swift"; sourceTree = "<group>"; };
 		8D87324025BD8AD5004C9256 /* 1290. Convert Binary Number in a Linked List to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1290. Convert Binary Number in a Linked List to Integer.swift"; sourceTree = "<group>"; };
+		8D95015625C152360041DD77 /* 326. Power of Three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "326. Power of Three.swift"; sourceTree = "<group>"; };
+		8D95015725C163910041DD77 /* 617. Merge Two Binary Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "617. Merge Two Binary Trees.swift"; sourceTree = "<group>"; };
 		8D951B9225B7EACA00E28A8A /* 563. Binary Tree Tilt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "563. Binary Tree Tilt.swift"; path = "Tree/563. Binary Tree Tilt.swift"; sourceTree = SOURCE_ROOT; };
 		8D951B9325B7FDEB00E28A8A /* 303. Range Sum Query - Immutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "303. Range Sum Query - Immutable.swift"; sourceTree = "<group>"; };
 		8D951B9425B8129400E28A8A /* 283. Move Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "283. Move Zeroes.swift"; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 				8D6A6B7724A1E2A400AC9F9F /* 112. Path Sum.swift */,
 				8D6A6B7F24A1E61300AC9F9F /* 226. Invert Binary Tree.swift */,
 				8D951B9225B7EACA00E28A8A /* 563. Binary Tree Tilt.swift */,
+				8D95015725C163910041DD77 /* 617. Merge Two Binary Trees.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				8D6A6B6324A1D7AC00AC9F9F /* 7. Reverse Integer.swift */,
 				8D6A6B6424A1D83E00AC9F9F /* 9. Palindrome Number.swift */,
 				8D9A12F625C039DA0025D2CC /* 171. Excel Sheet Column Number.swift */,
+				8D95015625C152360041DD77 /* 326. Power of Three.swift */,
 				8D951B9925B8398100E28A8A /* 412. Fizz Buzz.swift */,
 			);
 			path = Math;
