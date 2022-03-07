@@ -75,6 +75,7 @@
 		8DA1BE2E25C01C1600BEA3D5 /* 217. Contains Duplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "217. Contains Duplicate.swift"; sourceTree = "<group>"; };
 		8DA73DBD25B9501200595123 /* 344. Reverse String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "344. Reverse String.swift"; sourceTree = "<group>"; };
 		8DA73DBE25B95CAA00595123 /* 387. First Unique Character in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "387. First Unique Character in a String.swift"; sourceTree = "<group>"; };
+		8DDFBAA227D64E5800DAACA9 /* 205. Isomorphic Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "205. Isomorphic Strings.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -202,6 +203,7 @@
 				8D6A6B6E24A1DEF300AC9F9F /* 58. Length of Last Word.swift */,
 				8D6A6B7024A1DFB500AC9F9F /* 67. Add Binary.swift */,
 				8D951B9A25B83D5D00E28A8A /* 125. Valid Palindrome.swift */,
+				8DDFBAA227D64E5800DAACA9 /* 205. Isomorphic Strings.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
