@@ -62,6 +62,7 @@
 		8D951B9825B82E3600E28A8A /* 206. Reverse Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "206. Reverse Linked List.swift"; sourceTree = "<group>"; };
 		8D951B9925B8398100E28A8A /* 412. Fizz Buzz.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "412. Fizz Buzz.swift"; sourceTree = "<group>"; };
 		8D951B9A25B83D5D00E28A8A /* 125. Valid Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125. Valid Palindrome.swift"; sourceTree = "<group>"; };
+		8D962D5227D8FDDB00C0738A /* 1299. Replace Elements with Greatest Element on Right Side.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1299. Replace Elements with Greatest Element on Right Side.swift"; sourceTree = "<group>"; };
 		8D96CB8025BAF90C000649EF /* 350. Intersection of Two Arrays II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "350. Intersection of Two Arrays II.swift"; sourceTree = "<group>"; };
 		8D994B5C25B9B5210065952C /* 204. Count Primes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "204. Count Primes.swift"; sourceTree = "<group>"; };
 		8D994B5D25B9C15C0065952C /* 268. Missing Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "268. Missing Number.swift"; sourceTree = "<group>"; };
@@ -161,6 +162,7 @@
 				8D6A6B7D24A1E52500AC9F9F /* 169. Majority Element.swift */,
 				8D994B5D25B9C15C0065952C /* 268. Missing Number.swift */,
 				8D951B9425B8129400E28A8A /* 283. Move Zeroes.swift */,
+				8D962D5227D8FDDB00C0738A /* 1299. Replace Elements with Greatest Element on Right Side.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
