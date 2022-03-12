@@ -52,6 +52,7 @@
 		8D87323E25BD8110004C9256 /* 242. Valid Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "242. Valid Anagram.swift"; sourceTree = "<group>"; };
 		8D87323F25BD896B004C9256 /* 49. Group Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "49. Group Anagrams.swift"; sourceTree = "<group>"; };
 		8D87324025BD8AD5004C9256 /* 1290. Convert Binary Number in a Linked List to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1290. Convert Binary Number in a Linked List to Integer.swift"; sourceTree = "<group>"; };
+		8D8B796427DC19D100E7C7CE /* 2. Add Two Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2. Add Two Numbers.swift"; sourceTree = "<group>"; };
 		8D95015625C152360041DD77 /* 326. Power of Three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "326. Power of Three.swift"; sourceTree = "<group>"; };
 		8D95015725C163910041DD77 /* 617. Merge Two Binary Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "617. Merge Two Binary Trees.swift"; sourceTree = "<group>"; };
 		8D951B9225B7EACA00E28A8A /* 563. Binary Tree Tilt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "563. Binary Tree Tilt.swift"; path = "Tree/563. Binary Tree Tilt.swift"; sourceTree = SOURCE_ROOT; };
@@ -185,6 +186,7 @@
 		8D951B8C25B7E14A00E28A8A /* Linked List */ = {
 			isa = PBXGroup;
 			children = (
+				8D8B796427DC19D100E7C7CE /* 2. Add Two Numbers.swift */,
 				8D6A6B6824A1DBC800AC9F9F /* 21. Merge Two Sorted Lists.swift */,
 				8D6A6B7324A1E0FE00AC9F9F /* 83. Remove Duplicates from Sorted List.swift */,
 				8D9975D025BACD38007611B0 /* 141. Linked List Cycle.swift */,
