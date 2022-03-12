@@ -53,6 +53,7 @@
 		8D87323F25BD896B004C9256 /* 49. Group Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "49. Group Anagrams.swift"; sourceTree = "<group>"; };
 		8D87324025BD8AD5004C9256 /* 1290. Convert Binary Number in a Linked List to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1290. Convert Binary Number in a Linked List to Integer.swift"; sourceTree = "<group>"; };
 		8D8B796427DC19D100E7C7CE /* 2. Add Two Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2. Add Two Numbers.swift"; sourceTree = "<group>"; };
+		8D8B796527DCB4D200E7C7CE /* 64. Minimum Path Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "64. Minimum Path Sum.swift"; sourceTree = "<group>"; };
 		8D95015625C152360041DD77 /* 326. Power of Three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "326. Power of Three.swift"; sourceTree = "<group>"; };
 		8D95015725C163910041DD77 /* 617. Merge Two Binary Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "617. Merge Two Binary Trees.swift"; sourceTree = "<group>"; };
 		8D951B9225B7EACA00E28A8A /* 563. Binary Tree Tilt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "563. Binary Tree Tilt.swift"; path = "Tree/563. Binary Tree Tilt.swift"; sourceTree = SOURCE_ROOT; };
@@ -140,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				8D6A6B6D24A1DE4400AC9F9F /* 53. Maximum Subarray.swift */,
+				8D8B796527DCB4D200E7C7CE /* 64. Minimum Path Sum.swift */,
 				8D6A6B7224A1E0A000AC9F9F /* 70. Climbing Stairs.swift */,
 				8D6A6B7A24A1E41F00AC9F9F /* 121. Best Time to Buy and Sell Stock.swift */,
 				8D951B9325B7FDEB00E28A8A /* 303. Range Sum Query - Immutable.swift */,
