@@ -54,6 +54,7 @@
 		8D87324025BD8AD5004C9256 /* 1290. Convert Binary Number in a Linked List to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1290. Convert Binary Number in a Linked List to Integer.swift"; sourceTree = "<group>"; };
 		8D8B796427DC19D100E7C7CE /* 2. Add Two Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2. Add Two Numbers.swift"; sourceTree = "<group>"; };
 		8D8B796527DCB4D200E7C7CE /* 64. Minimum Path Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "64. Minimum Path Sum.swift"; sourceTree = "<group>"; };
+		8D8B796627DCCF7300E7C7CE /* 303. Range Sum Query - Immutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "303. Range Sum Query - Immutable.swift"; sourceTree = "<group>"; };
 		8D95015625C152360041DD77 /* 326. Power of Three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "326. Power of Three.swift"; sourceTree = "<group>"; };
 		8D95015725C163910041DD77 /* 617. Merge Two Binary Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "617. Merge Two Binary Trees.swift"; sourceTree = "<group>"; };
 		8D951B9225B7EACA00E28A8A /* 563. Binary Tree Tilt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "563. Binary Tree Tilt.swift"; path = "Tree/563. Binary Tree Tilt.swift"; sourceTree = SOURCE_ROOT; };
@@ -104,6 +105,7 @@
 				8D951B8B25B7E0D600E28A8A /* HashTable */,
 				8D951B8C25B7E14A00E28A8A /* Linked List */,
 				8D951B9025B7E81300E28A8A /* Math */,
+				8D8B796727DCCF7A00E7C7CE /* Prefix Sum */,
 				8D951B9525B81A3F00E28A8A /* Stack */,
 				8D951B8D25B7E55300E28A8A /* String */,
 				8D951B8F25B7E5D000E28A8A /* Tree */,
@@ -135,6 +137,14 @@
 				8D87323E25BD8110004C9256 /* 242. Valid Anagram.swift */,
 			);
 			path = Anagrams;
+			sourceTree = "<group>";
+		};
+		8D8B796727DCCF7A00E7C7CE /* Prefix Sum */ = {
+			isa = PBXGroup;
+			children = (
+				8D8B796627DCCF7300E7C7CE /* 303. Range Sum Query - Immutable.swift */,
+			);
+			path = "Prefix Sum";
 			sourceTree = "<group>";
 		};
 		8D951B8925B7DFD500E28A8A /* Dynamic Programming */ = {
