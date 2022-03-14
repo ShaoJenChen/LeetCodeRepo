@@ -55,6 +55,7 @@
 		8D8B796427DC19D100E7C7CE /* 2. Add Two Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2. Add Two Numbers.swift"; sourceTree = "<group>"; };
 		8D8B796527DCB4D200E7C7CE /* 64. Minimum Path Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "64. Minimum Path Sum.swift"; sourceTree = "<group>"; };
 		8D8B796627DCCF7300E7C7CE /* 303. Range Sum Query - Immutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "303. Range Sum Query - Immutable.swift"; sourceTree = "<group>"; };
+		8D93D67A27DF8B2800D21669 /* 219. Contains Duplicate II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "219. Contains Duplicate II.swift"; sourceTree = "<group>"; };
 		8D95015625C152360041DD77 /* 326. Power of Three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "326. Power of Three.swift"; sourceTree = "<group>"; };
 		8D95015725C163910041DD77 /* 617. Merge Two Binary Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "617. Merge Two Binary Trees.swift"; sourceTree = "<group>"; };
 		8D951B9225B7EACA00E28A8A /* 563. Binary Tree Tilt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "563. Binary Tree Tilt.swift"; path = "Tree/563. Binary Tree Tilt.swift"; sourceTree = SOURCE_ROOT; };
@@ -193,6 +194,7 @@
 				8D96CB8025BAF90C000649EF /* 350. Intersection of Two Arrays II.swift */,
 				8DA73DBE25B95CAA00595123 /* 387. First Unique Character in a String.swift */,
 				8DA1BE2E25C01C1600BEA3D5 /* 217. Contains Duplicate.swift */,
+				8D93D67A27DF8B2800D21669 /* 219. Contains Duplicate II.swift */,
 			);
 			path = HashTable;
 			sourceTree = "<group>";
