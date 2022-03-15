@@ -8,6 +8,7 @@
 
 /* Begin PBXFileReference section */
 		8D2256CD25BE6D5A00259A0D /* 257. Binary Tree Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "257. Binary Tree Paths.swift"; sourceTree = "<group>"; };
+		8D3349AE27E0DEDF00B9F4DB /* 263. Ugly Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "263. Ugly Number.swift"; sourceTree = "<group>"; };
 		8D3ACF2725B852DB00994980 /* 202. Happy Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "202. Happy Number.swift"; sourceTree = "<group>"; };
 		8D3ACF2825B8657200994980 /* 191. Number of 1 Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "191. Number of 1 Bits.swift"; sourceTree = "<group>"; };
 		8D5B187224A37629002F1D1D /* 111. Minimum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "111. Minimum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
@@ -260,6 +261,7 @@
 				8D6A6B6324A1D7AC00AC9F9F /* 7. Reverse Integer.swift */,
 				8D6A6B6424A1D83E00AC9F9F /* 9. Palindrome Number.swift */,
 				8D9A12F625C039DA0025D2CC /* 171. Excel Sheet Column Number.swift */,
+				8D3349AE27E0DEDF00B9F4DB /* 263. Ugly Number.swift */,
 				8D95015625C152360041DD77 /* 326. Power of Three.swift */,
 				8D951B9925B8398100E28A8A /* 412. Fizz Buzz.swift */,
 			);
