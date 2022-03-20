@@ -57,6 +57,7 @@
 		8D8B796527DCB4D200E7C7CE /* 64. Minimum Path Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "64. Minimum Path Sum.swift"; sourceTree = "<group>"; };
 		8D8B796627DCCF7300E7C7CE /* 303. Range Sum Query - Immutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "303. Range Sum Query - Immutable.swift"; sourceTree = "<group>"; };
 		8D93D67A27DF8B2800D21669 /* 219. Contains Duplicate II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "219. Contains Duplicate II.swift"; sourceTree = "<group>"; };
+		8D93FB5B27E741FD00FC9DC0 /* 56. Merge Intervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "56. Merge Intervals.swift"; sourceTree = "<group>"; };
 		8D95015625C152360041DD77 /* 326. Power of Three.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "326. Power of Three.swift"; sourceTree = "<group>"; };
 		8D95015725C163910041DD77 /* 617. Merge Two Binary Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "617. Merge Two Binary Trees.swift"; sourceTree = "<group>"; };
 		8D951B9225B7EACA00E28A8A /* 563. Binary Tree Tilt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "563. Binary Tree Tilt.swift"; path = "Tree/563. Binary Tree Tilt.swift"; sourceTree = SOURCE_ROOT; };
@@ -170,6 +171,7 @@
 				8D6A6B6924A1DC1000AC9F9F /* 26. Remove Duplicates from Sorted Array.swift */,
 				8D6A6B6A24A1DCC500AC9F9F /* 27. Remove Element.swift */,
 				8D6A6B6C24A1DDD200AC9F9F /* 35. Search Insert Position.swift */,
+				8D93FB5B27E741FD00FC9DC0 /* 56. Merge Intervals.swift */,
 				8D6A6B6F24A1DF4400AC9F9F /* 66. Plus One.swift */,
 				8D6A6B7424A1E15700AC9F9F /* 88. Merge Sorted Array.swift */,
 				8D6A6B7824A1E31800AC9F9F /* 118. Pascal's Triangle.swift */,
