@@ -53,6 +53,7 @@
 		8D87323E25BD8110004C9256 /* 242. Valid Anagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "242. Valid Anagram.swift"; sourceTree = "<group>"; };
 		8D87323F25BD896B004C9256 /* 49. Group Anagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "49. Group Anagrams.swift"; sourceTree = "<group>"; };
 		8D87324025BD8AD5004C9256 /* 1290. Convert Binary Number in a Linked List to Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1290. Convert Binary Number in a Linked List to Integer.swift"; sourceTree = "<group>"; };
+		8D8934ED27F07149004928EC /* 236. (Medium) Lowest Common Ancestor of a Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "236. (Medium) Lowest Common Ancestor of a Binary Tree.swift"; sourceTree = "<group>"; };
 		8D8B796427DC19D100E7C7CE /* 2. Add Two Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2. Add Two Numbers.swift"; sourceTree = "<group>"; };
 		8D8B796527DCB4D200E7C7CE /* 64. Minimum Path Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "64. Minimum Path Sum.swift"; sourceTree = "<group>"; };
 		8D8B796627DCCF7300E7C7CE /* 303. Range Sum Query - Immutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "303. Range Sum Query - Immutable.swift"; sourceTree = "<group>"; };
@@ -255,6 +256,7 @@
 				8D6A6B7F24A1E61300AC9F9F /* 226. Invert Binary Tree.swift */,
 				8D951B9225B7EACA00E28A8A /* 563. Binary Tree Tilt.swift */,
 				8D95015725C163910041DD77 /* 617. Merge Two Binary Trees.swift */,
+				8D8934ED27F07149004928EC /* 236. (Medium) Lowest Common Ancestor of a Binary Tree.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
