@@ -103,6 +103,7 @@
 		8DA1BE2E25C01C1600BEA3D5 /* 217. Contains Duplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "217. Contains Duplicate.swift"; sourceTree = "<group>"; };
 		8DA73DBD25B9501200595123 /* 344. Reverse String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "344. Reverse String.swift"; sourceTree = "<group>"; };
 		8DA73DBE25B95CAA00595123 /* 387. First Unique Character in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "387. First Unique Character in a String.swift"; sourceTree = "<group>"; };
+		8DAF45102BC7956C00C974D1 /* 572. Subtree of Another Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "572. Subtree of Another Tree.swift"; sourceTree = "<group>"; };
 		8DDFBAA227D64E5800DAACA9 /* 205. Isomorphic Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "205. Isomorphic Strings.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -333,6 +334,7 @@
 				8D6A6B7724A1E2A400AC9F9F /* 112. Path Sum.swift */,
 				8D6A6B7F24A1E61300AC9F9F /* 226. Invert Binary Tree.swift */,
 				8D951B9225B7EACA00E28A8A /* 563. Binary Tree Tilt.swift */,
+				8DAF45102BC7956C00C974D1 /* 572. Subtree of Another Tree.swift */,
 				8D95015725C163910041DD77 /* 617. Merge Two Binary Trees.swift */,
 				8D8934ED27F07149004928EC /* 236. (Medium) Lowest Common Ancestor of a Binary Tree.swift */,
 				8D0AAE6A2BC5BA3F003FFF51 /* 1650. Lowest Common Ancestor of a Binary Tree III.swift */,
