@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		8D0AAE5A2BC3B29E003FFF51 /* 1570. Dot Product of Two Sparse Vectors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1570. Dot Product of Two Sparse Vectors.swift"; sourceTree = "<group>"; };
+		8D0AAE5C2BC3BD40003FFF51 /* 1700. Number of Students Unable to Eat Lunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1700. Number of Students Unable to Eat Lunch.swift"; sourceTree = "<group>"; };
+		8D0AAE5E2BC3C892003FFF51 /* 15. 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "15. 3Sum.swift"; sourceTree = "<group>"; };
+		8D0AAE5F2BC3CCB3003FFF51 /* 380. Insert Delete GetRandom O(1).swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "380. Insert Delete GetRandom O(1).swift"; sourceTree = "<group>"; };
+		8D0AAE612BC3FB8B003FFF51 /* 314. Binary Tree Vertical Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "314. Binary Tree Vertical Order Traversal.swift"; sourceTree = "<group>"; };
+		8D0AAE622BC406B2003FFF51 /* 1768. Merge Strings Alternately.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1768. Merge Strings Alternately.swift"; sourceTree = "<group>"; };
+		8D0AAE642BC4220C003FFF51 /* 661. Image Smoother.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "661. Image Smoother.swift"; sourceTree = "<group>"; };
+		8D0AAE652BC53AD3003FFF51 /* 339. Nested List Weight Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "339. Nested List Weight Sum.swift"; sourceTree = "<group>"; };
+		8D0AAE662BC549B6003FFF51 /* 528. Random Pick with Weight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "528. Random Pick with Weight.swift"; sourceTree = "<group>"; };
+		8D0AAE682BC55B5B003FFF51 /* 1291. Sequential Digits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1291. Sequential Digits.swift"; sourceTree = "<group>"; };
+		8D0AAE692BC568DC003FFF51 /* 560. Subarray Sum Equals K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "560. Subarray Sum Equals K.swift"; sourceTree = "<group>"; };
+		8D0AAE6A2BC5BA3F003FFF51 /* 1650. Lowest Common Ancestor of a Binary Tree III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1650. Lowest Common Ancestor of a Binary Tree III.swift"; sourceTree = "<group>"; };
+		8D0AAE6B2BC66C0D003FFF51 /* 680. Valid Palindrome II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "680. Valid Palindrome II.swift"; sourceTree = "<group>"; };
+		8D0AAE6C2BC66CCC003FFF51 /* 2235. Add Two Integers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2235. Add Two Integers.swift"; sourceTree = "<group>"; };
+		8D0AAE6D2BC67CFA003FFF51 /* 215. Kth Largest Element in an Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "215. Kth Largest Element in an Array.swift"; sourceTree = "<group>"; };
+		8D0AAE6F2BC68167003FFF51 /* 22. Generate Parentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "22. Generate Parentheses.swift"; sourceTree = "<group>"; };
+		8D0AAE702BC68CD2003FFF51 /* 46. Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "46. Permutations.swift"; sourceTree = "<group>"; };
+		8D0AAE712BC78B6E003FFF51 /* 402. Remove K Digits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "402. Remove K Digits.swift"; sourceTree = "<group>"; };
 		8D2256CD25BE6D5A00259A0D /* 257. Binary Tree Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "257. Binary Tree Paths.swift"; sourceTree = "<group>"; };
 		8D3349AE27E0DEDF00B9F4DB /* 263. Ugly Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "263. Ugly Number.swift"; sourceTree = "<group>"; };
 		8D3ACF2725B852DB00994980 /* 202. Happy Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "202. Happy Number.swift"; sourceTree = "<group>"; };
@@ -89,6 +107,55 @@
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
+		8D0AAE5B2BC3BD28003FFF51 /* Stack And Queue */ = {
+			isa = PBXGroup;
+			children = (
+				8D0AAE5C2BC3BD40003FFF51 /* 1700. Number of Students Unable to Eat Lunch.swift */,
+			);
+			path = "Stack And Queue";
+			sourceTree = "<group>";
+		};
+		8D0AAE5D2BC3C86C003FFF51 /* Sort */ = {
+			isa = PBXGroup;
+			children = (
+				8D0AAE5E2BC3C892003FFF51 /* 15. 3Sum.swift */,
+			);
+			path = Sort;
+			sourceTree = "<group>";
+		};
+		8D0AAE602BC3FB7B003FFF51 /* BFS */ = {
+			isa = PBXGroup;
+			children = (
+				8D0AAE612BC3FB8B003FFF51 /* 314. Binary Tree Vertical Order Traversal.swift */,
+			);
+			path = BFS;
+			sourceTree = "<group>";
+		};
+		8D0AAE632BC42201003FFF51 /* Matrix */ = {
+			isa = PBXGroup;
+			children = (
+				8D0AAE642BC4220C003FFF51 /* 661. Image Smoother.swift */,
+			);
+			path = Matrix;
+			sourceTree = "<group>";
+		};
+		8D0AAE672BC55B3D003FFF51 /* Enumeration */ = {
+			isa = PBXGroup;
+			children = (
+				8D0AAE682BC55B5B003FFF51 /* 1291. Sequential Digits.swift */,
+			);
+			path = Enumeration;
+			sourceTree = "<group>";
+		};
+		8D0AAE6E2BC6814A003FFF51 /* BackTracking */ = {
+			isa = PBXGroup;
+			children = (
+				8D0AAE6F2BC68167003FFF51 /* 22. Generate Parentheses.swift */,
+				8D0AAE702BC68CD2003FFF51 /* 46. Permutations.swift */,
+			);
+			path = BackTracking;
+			sourceTree = "<group>";
+		};
 		8D2256CC25BE6D3A00259A0D /* BackTracking */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,15 +169,19 @@
 			children = (
 				8D951B8A25B7E01D00E28A8A /* Array */,
 				8D87323D25BD8101004C9256 /* Anagrams */,
+				8D0AAE6E2BC6814A003FFF51 /* BackTracking */,
 				8D951B9125B7E87100E28A8A /* Bit Manipulation */,
 				8D951B8E25B7E57F00E28A8A /* Binary Search */,
+				8D0AAE602BC3FB7B003FFF51 /* BFS */,
 				8D803EE425BC446E0016A236 /* DFS */,
 				8D803EE125BC0B800016A236 /* Design */,
 				8D951B8925B7DFD500E28A8A /* Dynamic Programming */,
+				8D0AAE672BC55B3D003FFF51 /* Enumeration */,
 				8D9D83C727D4B88E0084225C /* Greedy */,
 				8D951B8B25B7E0D600E28A8A /* HashTable */,
 				8D951B8C25B7E14A00E28A8A /* Linked List */,
 				8D951B9025B7E81300E28A8A /* Math */,
+				8D0AAE632BC42201003FFF51 /* Matrix */,
 				8D8B796727DCCF7A00E7C7CE /* Prefix Sum */,
 				8D951B9525B81A3F00E28A8A /* Stack */,
 				8D951B8D25B7E55300E28A8A /* String */,
@@ -123,6 +194,8 @@
 			isa = PBXGroup;
 			children = (
 				8D803EE225BC0B910016A236 /* 146. LRU Cache.swift */,
+				8D0AAE5F2BC3CCB3003FFF51 /* 380. Insert Delete GetRandom O(1).swift */,
+				8D0AAE662BC549B6003FFF51 /* 528. Random Pick with Weight.swift */,
 			);
 			path = Design;
 			sourceTree = "<group>";
@@ -133,6 +206,7 @@
 				8D93FB5C27E754C800FC9DC0 /* 94. Binary Tree Inorder Traversal.swift */,
 				8D2256CC25BE6D3A00259A0D /* BackTracking */,
 				8D803EE525BC447E0016A236 /* 200. Number of Islands.swift */,
+				8D0AAE652BC53AD3003FFF51 /* 339. Nested List Weight Sum.swift */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
@@ -150,6 +224,7 @@
 			isa = PBXGroup;
 			children = (
 				8D8B796627DCCF7300E7C7CE /* 303. Range Sum Query - Immutable.swift */,
+				8D0AAE692BC568DC003FFF51 /* 560. Subarray Sum Equals K.swift */,
 			);
 			path = "Prefix Sum";
 			sourceTree = "<group>";
@@ -185,6 +260,8 @@
 				8D994B5D25B9C15C0065952C /* 268. Missing Number.swift */,
 				8D951B9425B8129400E28A8A /* 283. Move Zeroes.swift */,
 				8D962D5227D8FDDB00C0738A /* 1299. Replace Elements with Greatest Element on Right Side.swift */,
+				8D0AAE5A2BC3B29E003FFF51 /* 1570. Dot Product of Two Sparse Vectors.swift */,
+				8D0AAE6D2BC67CFA003FFF51 /* 215. Kth Largest Element in an Array.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -230,6 +307,7 @@
 				8D6A6B7024A1DFB500AC9F9F /* 67. Add Binary.swift */,
 				8D951B9A25B83D5D00E28A8A /* 125. Valid Palindrome.swift */,
 				8DDFBAA227D64E5800DAACA9 /* 205. Isomorphic Strings.swift */,
+				8D0AAE622BC406B2003FFF51 /* 1768. Merge Strings Alternately.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -257,6 +335,7 @@
 				8D951B9225B7EACA00E28A8A /* 563. Binary Tree Tilt.swift */,
 				8D95015725C163910041DD77 /* 617. Merge Two Binary Trees.swift */,
 				8D8934ED27F07149004928EC /* 236. (Medium) Lowest Common Ancestor of a Binary Tree.swift */,
+				8D0AAE6A2BC5BA3F003FFF51 /* 1650. Lowest Common Ancestor of a Binary Tree III.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -270,6 +349,7 @@
 				8D3349AE27E0DEDF00B9F4DB /* 263. Ugly Number.swift */,
 				8D95015625C152360041DD77 /* 326. Power of Three.swift */,
 				8D951B9925B8398100E28A8A /* 412. Fizz Buzz.swift */,
+				8D0AAE6C2BC66CCC003FFF51 /* 2235. Add Two Integers.swift */,
 			);
 			path = Math;
 			sourceTree = "<group>";
@@ -288,7 +368,9 @@
 		8D951B9525B81A3F00E28A8A /* Stack */ = {
 			isa = PBXGroup;
 			children = (
+				8D0AAE5B2BC3BD28003FFF51 /* Stack And Queue */,
 				8D951B9625B81A5400E28A8A /* 155. Min Stack.swift */,
+				8D0AAE712BC78B6E003FFF51 /* 402. Remove K Digits.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -304,8 +386,10 @@
 		8DA73DBC25B94FDF00595123 /* TwoPointers */ = {
 			isa = PBXGroup;
 			children = (
+				8D0AAE5D2BC3C86C003FFF51 /* Sort */,
 				8D9D83C427D4A3C80084225C /* 11. Container With Most Water.swift */,
 				8DA73DBD25B9501200595123 /* 344. Reverse String.swift */,
+				8D0AAE6B2BC66C0D003FFF51 /* 680. Valid Palindrome II.swift */,
 			);
 			path = TwoPointers;
 			sourceTree = "<group>";

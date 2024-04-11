@@ -74,4 +74,22 @@ class Solution {
         }
         return index
     }
+    
+    func removeElement(_ nums: inout [Int], _ val: Int) -> Int {
+        var index = 0
+        var length = nums.count
+            
+        while (index < length) {
+            if nums[index] == val {
+                nums[index] = nums[length - 1]
+                length -= 1
+            }
+            else {
+                index += 1
+            }
+        }
+
+        return length
+    }
 }
+

@@ -61,4 +61,25 @@ class Solution {
         
         return result
     }
+    
+    func reverseBits(_ n: Int) -> Int {
+            
+            var reversedArr = [Int]()
+            var number = n
+            
+            var index = 31
+            while index >= 0 {
+                reversedArr.append(number % 2)
+                index -= 1
+                number /= 2
+            }
+
+            var result = 0
+            
+            for (index, digital) in reversedArr.enumerated() {
+                result |= digital << (reversedArr.count - 1 - index)
+            }
+
+            return result
+    }
 }

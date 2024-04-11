@@ -66,4 +66,22 @@ class Solution {
         
         return isHappy(nextNumber)
     }
+    
+    func isHappy(_ n: Int) -> Bool {
+        var n = n
+        while n > 9 {
+            n = String(n).compactMap { Int(String($0)) }.reduce(0) { $0 + $1 * $1 }
+        }
+        return n == 1 || n == 7 ? true : false
+    }
+    
+//    It will finally goto a
+//    4→16→37→58→89→145→42→20→4 loop.
+//    so just consider if go to one of these number, it will be not happy number, otherwise, it will finally stop at 1
+//    Single digit numbers apart from 1 and 7, are not happy numbers.
+//    So if n==1 or n==7 then directly return true.
+//    Otherwise, run the loop until n>9, i.e. when the number of digits are greater than 1.
+//    Inside this main loop, access individual digits of the number(n) and perform the square operation followed by sum.
+//    This sum if equals to either 1 or 7, then we can return true. Else continue the loop, untill the sum becomes a single digit number.
+//    Lastly, if 1 or 7 doesnot appear, then return false.
 }

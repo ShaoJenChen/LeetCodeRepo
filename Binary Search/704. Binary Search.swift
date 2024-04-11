@@ -69,4 +69,26 @@ class Solution {
         return -1
 
     }
+    
+    func search(_ nums: [Int], _ target: Int) -> Int {
+            var headIndex = 0
+            var tailIndex = nums.count - 1
+            var middleIndex = nums.count / 2
+
+            if nums[headIndex] == target { return headIndex }
+            if nums[tailIndex] == target { return tailIndex }
+
+            while (headIndex < tailIndex) {
+                if nums[middleIndex] == target { return middleIndex }
+                if nums[middleIndex] < target {
+                    headIndex = middleIndex + 1
+                }
+                else {
+                    tailIndex = middleIndex
+                }
+                middleIndex = (headIndex + tailIndex)/2
+                
+            }
+            return -1
+        }
 }

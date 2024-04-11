@@ -63,4 +63,19 @@ class Solution {
             }
         }
     }
+    
+    func searchInsert(_ nums: [Int], _ target: Int) -> Int {
+        
+        for (index, num) in nums.enumerated() {
+            if target > num {
+                continue
+            }
+            else {
+                return index
+            }
+        }
+
+        return nums.count
+        
+    }
 }
