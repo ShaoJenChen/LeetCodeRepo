@@ -104,7 +104,12 @@
 		8DA73DBD25B9501200595123 /* 344. Reverse String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "344. Reverse String.swift"; sourceTree = "<group>"; };
 		8DA73DBE25B95CAA00595123 /* 387. First Unique Character in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "387. First Unique Character in a String.swift"; sourceTree = "<group>"; };
 		8DAF45102BC7956C00C974D1 /* 572. Subtree of Another Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "572. Subtree of Another Tree.swift"; sourceTree = "<group>"; };
+		8DAF45112BC7BE9A00C974D1 /* 152. Maximum Product Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "152. Maximum Product Subarray.swift"; sourceTree = "<group>"; };
+		8DAF45122BC7DD9900C974D1 /* 5. Longest Palindromic Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5. Longest Palindromic Substring.swift"; sourceTree = "<group>"; };
+		8DAF45132BC8195400C974D1 /* 823. Binary Trees With Factors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "823. Binary Trees With Factors.swift"; sourceTree = "<group>"; };
+		8DAF45142BC81C2E00C974D1 /* 938. Range Sum of BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "938. Range Sum of BST.swift"; sourceTree = "<group>"; };
 		8DDFBAA227D64E5800DAACA9 /* 205. Isomorphic Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "205. Isomorphic Strings.swift"; sourceTree = "<group>"; };
+		8DE4FAA82C2A98D400B1753C /* 408. Valid Word Abbreviation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "408. Valid Word Abbreviation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -208,6 +213,7 @@
 				8D2256CC25BE6D3A00259A0D /* BackTracking */,
 				8D803EE525BC447E0016A236 /* 200. Number of Islands.swift */,
 				8D0AAE652BC53AD3003FFF51 /* 339. Nested List Weight Sum.swift */,
+				8DAF45142BC81C2E00C974D1 /* 938. Range Sum of BST.swift */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
@@ -233,12 +239,15 @@
 		8D951B8925B7DFD500E28A8A /* Dynamic Programming */ = {
 			isa = PBXGroup;
 			children = (
+				8DAF45122BC7DD9900C974D1 /* 5. Longest Palindromic Substring.swift */,
 				8D6A6B6D24A1DE4400AC9F9F /* 53. Maximum Subarray.swift */,
 				8D8B796527DCB4D200E7C7CE /* 64. Minimum Path Sum.swift */,
 				8D6A6B7224A1E0A000AC9F9F /* 70. Climbing Stairs.swift */,
 				8D6A6B7A24A1E41F00AC9F9F /* 121. Best Time to Buy and Sell Stock.swift */,
+				8DAF45112BC7BE9A00C974D1 /* 152. Maximum Product Subarray.swift */,
 				8D951B9325B7FDEB00E28A8A /* 303. Range Sum Query - Immutable.swift */,
 				8D803EE025BBDC200016A236 /* 509. Fibonacci Number.swift */,
+				8DAF45132BC8195400C974D1 /* 823. Binary Trees With Factors.swift */,
 			);
 			path = "Dynamic Programming";
 			sourceTree = "<group>";
@@ -392,6 +401,7 @@
 				8D9D83C427D4A3C80084225C /* 11. Container With Most Water.swift */,
 				8DA73DBD25B9501200595123 /* 344. Reverse String.swift */,
 				8D0AAE6B2BC66C0D003FFF51 /* 680. Valid Palindrome II.swift */,
+				8DE4FAA82C2A98D400B1753C /* 408. Valid Word Abbreviation.swift */,
 			);
 			path = TwoPointers;
 			sourceTree = "<group>";
