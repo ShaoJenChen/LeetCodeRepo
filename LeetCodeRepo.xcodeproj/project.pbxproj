@@ -108,6 +108,7 @@
 		8DAF45122BC7DD9900C974D1 /* 5. Longest Palindromic Substring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "5. Longest Palindromic Substring.swift"; sourceTree = "<group>"; };
 		8DAF45132BC8195400C974D1 /* 823. Binary Trees With Factors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "823. Binary Trees With Factors.swift"; sourceTree = "<group>"; };
 		8DAF45142BC81C2E00C974D1 /* 938. Range Sum of BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "938. Range Sum of BST.swift"; sourceTree = "<group>"; };
+		8DD103E02C33F9E1002626BF /* 232. Implement Queue using Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232. Implement Queue using Stacks.swift"; sourceTree = "<group>"; };
 		8DDFBAA227D64E5800DAACA9 /* 205. Isomorphic Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "205. Isomorphic Strings.swift"; sourceTree = "<group>"; };
 		8DE4FAA82C2A98D400B1753C /* 408. Valid Word Abbreviation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "408. Valid Word Abbreviation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -117,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				8D0AAE5C2BC3BD40003FFF51 /* 1700. Number of Students Unable to Eat Lunch.swift */,
+				8DD103E02C33F9E1002626BF /* 232. Implement Queue using Stacks.swift */,
 			);
 			path = "Stack And Queue";
 			sourceTree = "<group>";
