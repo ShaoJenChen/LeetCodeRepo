@@ -111,6 +111,15 @@
 		8DD103E02C33F9E1002626BF /* 232. Implement Queue using Stacks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "232. Implement Queue using Stacks.swift"; sourceTree = "<group>"; };
 		8DDFBAA227D64E5800DAACA9 /* 205. Isomorphic Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "205. Isomorphic Strings.swift"; sourceTree = "<group>"; };
 		8DE4FAA82C2A98D400B1753C /* 408. Valid Word Abbreviation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "408. Valid Word Abbreviation.swift"; sourceTree = "<group>"; };
+		8DEBC62C2C4243AA009F4ACA /* 151. Reverse Words in a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "151. Reverse Words in a String.swift"; sourceTree = "<group>"; };
+		8DEBC62D2C4247C4009F4ACA /* 700. Search in a Binary Search Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "700. Search in a Binary Search Tree.swift"; sourceTree = "<group>"; };
+		8DEBC62E2C426A4E009F4ACA /* 450. Delete Node in a BST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "450. Delete Node in a BST.swift"; sourceTree = "<group>"; };
+		8DEBC62F2C4274DD009F4ACA /* 2390. Removing Stars From a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2390. Removing Stars From a String.swift"; sourceTree = "<group>"; };
+		8DEBC6302C427839009F4ACA /* 933. Number of Recent Calls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "933. Number of Recent Calls.swift"; sourceTree = "<group>"; };
+		8DEBC6312C428104009F4ACA /* 605. Can Place Flowers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "605. Can Place Flowers.swift"; sourceTree = "<group>"; };
+		8DEBC6322C4294CD009F4ACA /* 338. Counting Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "338. Counting Bits.swift"; sourceTree = "<group>"; };
+		8DEBC6332C438835009F4ACA /* 374. Guess Number Higher or Lower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "374. Guess Number Higher or Lower.swift"; sourceTree = "<group>"; };
+		8DEBC6342C4394BD009F4ACA /* 2336. Smallest Number in Infinite Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2336. Smallest Number in Infinite Set.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -204,6 +213,8 @@
 				8D803EE225BC0B910016A236 /* 146. LRU Cache.swift */,
 				8D0AAE5F2BC3CCB3003FFF51 /* 380. Insert Delete GetRandom O(1).swift */,
 				8D0AAE662BC549B6003FFF51 /* 528. Random Pick with Weight.swift */,
+				8DEBC6302C427839009F4ACA /* 933. Number of Recent Calls.swift */,
+				8DEBC6342C4394BD009F4ACA /* 2336. Smallest Number in Infinite Set.swift */,
 			);
 			path = Design;
 			sourceTree = "<group>";
@@ -274,6 +285,7 @@
 				8D962D5227D8FDDB00C0738A /* 1299. Replace Elements with Greatest Element on Right Side.swift */,
 				8D0AAE5A2BC3B29E003FFF51 /* 1570. Dot Product of Two Sparse Vectors.swift */,
 				8D0AAE6D2BC67CFA003FFF51 /* 215. Kth Largest Element in an Array.swift */,
+				8DEBC6312C428104009F4ACA /* 605. Can Place Flowers.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -320,6 +332,8 @@
 				8D951B9A25B83D5D00E28A8A /* 125. Valid Palindrome.swift */,
 				8DDFBAA227D64E5800DAACA9 /* 205. Isomorphic Strings.swift */,
 				8D0AAE622BC406B2003FFF51 /* 1768. Merge Strings Alternately.swift */,
+				8DEBC62C2C4243AA009F4ACA /* 151. Reverse Words in a String.swift */,
+				8DEBC62F2C4274DD009F4ACA /* 2390. Removing Stars From a String.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -329,6 +343,7 @@
 			children = (
 				8D6A6B7124A1E02500AC9F9F /* 69. Sqrt(x).swift */,
 				8D6A6B8124A1E79F00AC9F9F /* 704. Binary Search.swift */,
+				8DEBC6332C438835009F4ACA /* 374. Guess Number Higher or Lower.swift */,
 			);
 			path = "Binary Search";
 			sourceTree = "<group>";
@@ -349,6 +364,8 @@
 				8D95015725C163910041DD77 /* 617. Merge Two Binary Trees.swift */,
 				8D8934ED27F07149004928EC /* 236. (Medium) Lowest Common Ancestor of a Binary Tree.swift */,
 				8D0AAE6A2BC5BA3F003FFF51 /* 1650. Lowest Common Ancestor of a Binary Tree III.swift */,
+				8DEBC62D2C4247C4009F4ACA /* 700. Search in a Binary Search Tree.swift */,
+				8DEBC62E2C426A4E009F4ACA /* 450. Delete Node in a BST.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -374,6 +391,7 @@
 				8D3ACF2825B8657200994980 /* 191. Number of 1 Bits.swift */,
 				8D6A6B8024A1E69400AC9F9F /* 371. Sum of Two Integers.swift */,
 				8D87324025BD8AD5004C9256 /* 1290. Convert Binary Number in a Linked List to Integer.swift */,
+				8DEBC6322C4294CD009F4ACA /* 338. Counting Bits.swift */,
 			);
 			path = "Bit Manipulation";
 			sourceTree = "<group>";
