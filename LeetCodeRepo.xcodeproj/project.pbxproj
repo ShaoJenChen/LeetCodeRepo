@@ -126,6 +126,10 @@
 		8DEBC6382C44F18A009F4ACA /* 1732. Find the Highest Altitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1732. Find the Highest Altitude.swift"; sourceTree = "<group>"; };
 		8DEBC6392C44F824009F4ACA /* 724. Find Pivot Index, 1991. Find the Middle Index in Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "724. Find Pivot Index, 1991. Find the Middle Index in Array.swift"; sourceTree = "<group>"; };
 		8DEBC63A2C4507E0009F4ACA /* 452. Minimum Number of Arrows to Burst Balloons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "452. Minimum Number of Arrows to Burst Balloons.swift"; sourceTree = "<group>"; };
+		8DEBC63B2C4526F7009F4ACA /* 841. Keys and Rooms.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "841. Keys and Rooms.swift"; sourceTree = "<group>"; };
+		8DEBC63C2C453E31009F4ACA /* 1207. Unique Number of Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1207. Unique Number of Occurrences.swift"; sourceTree = "<group>"; };
+		8DEBC63D2C454115009F4ACA /* 872. Leaf-Similar Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "872. Leaf-Similar Trees.swift"; sourceTree = "<group>"; };
+		8DEBC63E2C454F60009F4ACA /* 1071. Greatest Common Divisor of Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1071. Greatest Common Divisor of Strings.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -236,6 +240,8 @@
 				8D6A6B7724A1E2A400AC9F9F /* 112. Path Sum.swift */,
 				8DEBC6352C43BB34009F4ACA /* 113. Path Sum II.swift */,
 				8DEBC6362C43BFDF009F4ACA /* 437. Path Sum III.swift */,
+				8DEBC63B2C4526F7009F4ACA /* 841. Keys and Rooms.swift */,
+				8DEBC63D2C454115009F4ACA /* 872. Leaf-Similar Trees.swift */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
@@ -313,6 +319,7 @@
 				8DA73DBE25B95CAA00595123 /* 387. First Unique Character in a String.swift */,
 				8DA1BE2E25C01C1600BEA3D5 /* 217. Contains Duplicate.swift */,
 				8D93D67A27DF8B2800D21669 /* 219. Contains Duplicate II.swift */,
+				8DEBC63C2C453E31009F4ACA /* 1207. Unique Number of Occurrences.swift */,
 			);
 			path = HashTable;
 			sourceTree = "<group>";
@@ -391,6 +398,7 @@
 				8D95015625C152360041DD77 /* 326. Power of Three.swift */,
 				8D951B9925B8398100E28A8A /* 412. Fizz Buzz.swift */,
 				8D0AAE6C2BC66CCC003FFF51 /* 2235. Add Two Integers.swift */,
+				8DEBC63E2C454F60009F4ACA /* 1071. Greatest Common Divisor of Strings.swift */,
 			);
 			path = Math;
 			sourceTree = "<group>";
