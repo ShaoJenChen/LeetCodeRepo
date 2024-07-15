@@ -120,6 +120,12 @@
 		8DEBC6322C4294CD009F4ACA /* 338. Counting Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "338. Counting Bits.swift"; sourceTree = "<group>"; };
 		8DEBC6332C438835009F4ACA /* 374. Guess Number Higher or Lower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "374. Guess Number Higher or Lower.swift"; sourceTree = "<group>"; };
 		8DEBC6342C4394BD009F4ACA /* 2336. Smallest Number in Infinite Set.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2336. Smallest Number in Infinite Set.swift"; sourceTree = "<group>"; };
+		8DEBC6352C43BB34009F4ACA /* 113. Path Sum II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "113. Path Sum II.swift"; sourceTree = "<group>"; };
+		8DEBC6362C43BFDF009F4ACA /* 437. Path Sum III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "437. Path Sum III.swift"; sourceTree = "<group>"; };
+		8DEBC6372C44EC01009F4ACA /* 162. Find Peak Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "162. Find Peak Element.swift"; sourceTree = "<group>"; };
+		8DEBC6382C44F18A009F4ACA /* 1732. Find the Highest Altitude.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1732. Find the Highest Altitude.swift"; sourceTree = "<group>"; };
+		8DEBC6392C44F824009F4ACA /* 724. Find Pivot Index, 1991. Find the Middle Index in Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "724. Find Pivot Index, 1991. Find the Middle Index in Array.swift"; sourceTree = "<group>"; };
+		8DEBC63A2C4507E0009F4ACA /* 452. Minimum Number of Arrows to Burst Balloons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "452. Minimum Number of Arrows to Burst Balloons.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -227,6 +233,9 @@
 				8D803EE525BC447E0016A236 /* 200. Number of Islands.swift */,
 				8D0AAE652BC53AD3003FFF51 /* 339. Nested List Weight Sum.swift */,
 				8DAF45142BC81C2E00C974D1 /* 938. Range Sum of BST.swift */,
+				8D6A6B7724A1E2A400AC9F9F /* 112. Path Sum.swift */,
+				8DEBC6352C43BB34009F4ACA /* 113. Path Sum II.swift */,
+				8DEBC6362C43BFDF009F4ACA /* 437. Path Sum III.swift */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
@@ -245,6 +254,8 @@
 			children = (
 				8D8B796627DCCF7300E7C7CE /* 303. Range Sum Query - Immutable.swift */,
 				8D0AAE692BC568DC003FFF51 /* 560. Subarray Sum Equals K.swift */,
+				8DEBC6382C44F18A009F4ACA /* 1732. Find the Highest Altitude.swift */,
+				8DEBC6392C44F824009F4ACA /* 724. Find Pivot Index, 1991. Find the Middle Index in Array.swift */,
 			);
 			path = "Prefix Sum";
 			sourceTree = "<group>";
@@ -344,6 +355,7 @@
 				8D6A6B7124A1E02500AC9F9F /* 69. Sqrt(x).swift */,
 				8D6A6B8124A1E79F00AC9F9F /* 704. Binary Search.swift */,
 				8DEBC6332C438835009F4ACA /* 374. Guess Number Higher or Lower.swift */,
+				8DEBC6372C44EC01009F4ACA /* 162. Find Peak Element.swift */,
 			);
 			path = "Binary Search";
 			sourceTree = "<group>";
@@ -357,7 +369,6 @@
 				8D6A6B8324A33A0600AC9F9F /* 108. Convert Sorted Array to Binary Search Tree.swift */,
 				8D6A6B8424A35DF100AC9F9F /* 110. Balanced Binary Tree.swift */,
 				8D5B187224A37629002F1D1D /* 111. Minimum Depth of Binary Tree.swift */,
-				8D6A6B7724A1E2A400AC9F9F /* 112. Path Sum.swift */,
 				8D6A6B7F24A1E61300AC9F9F /* 226. Invert Binary Tree.swift */,
 				8D951B9225B7EACA00E28A8A /* 563. Binary Tree Tilt.swift */,
 				8DAF45102BC7956C00C974D1 /* 572. Subtree of Another Tree.swift */,
@@ -410,6 +421,7 @@
 			isa = PBXGroup;
 			children = (
 				8D9D83C827D4B88E0084225C /* 409. Longest Palindrome.swift */,
+				8DEBC63A2C4507E0009F4ACA /* 452. Minimum Number of Arrows to Burst Balloons.swift */,
 			);
 			path = Greedy;
 			sourceTree = "<group>";
