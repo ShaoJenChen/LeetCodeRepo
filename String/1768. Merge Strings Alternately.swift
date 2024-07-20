@@ -54,8 +54,6 @@ class Solution {
                 resultStr.append(c2)
             }
         }
-        resultStr.append(contentsOf: word1)
-        resultStr.append(contentsOf: word2)
         return resultStr
     }
 }

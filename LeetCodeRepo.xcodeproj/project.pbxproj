@@ -130,6 +130,13 @@
 		8DEBC63C2C453E31009F4ACA /* 1207. Unique Number of Occurrences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1207. Unique Number of Occurrences.swift"; sourceTree = "<group>"; };
 		8DEBC63D2C454115009F4ACA /* 872. Leaf-Similar Trees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "872. Leaf-Similar Trees.swift"; sourceTree = "<group>"; };
 		8DEBC63E2C454F60009F4ACA /* 1071. Greatest Common Divisor of Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1071. Greatest Common Divisor of Strings.swift"; sourceTree = "<group>"; };
+		8DEBC63F2C455474009F4ACA /* 345. Reverse Vowels of a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "345. Reverse Vowels of a String.swift"; sourceTree = "<group>"; };
+		8DEBC6402C469326009F4ACA /* 443. String Compression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "443. String Compression.swift"; sourceTree = "<group>"; };
+		8DEBC6412C4A4AB1009F4ACA /* 1137. N-th Tribonacci Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1137. N-th Tribonacci Number.swift"; sourceTree = "<group>"; };
+		8DEBC6422C4A59B3009F4ACA /* 746. Min Cost Climbing Stairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "746. Min Cost Climbing Stairs.swift"; sourceTree = "<group>"; };
+		8DEBC6432C4A70BF009F4ACA /* 198. House Robber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "198. House Robber.swift"; sourceTree = "<group>"; };
+		8DEBC6442C4AAD2B009F4ACA /* 62. Unique Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "62. Unique Paths.swift"; sourceTree = "<group>"; };
+		8DEBC6452C4B681B009F4ACA /* 1431. Kids With the Greatest Number of Candies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1431. Kids With the Greatest Number of Candies.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -278,6 +285,10 @@
 				8D951B9325B7FDEB00E28A8A /* 303. Range Sum Query - Immutable.swift */,
 				8D803EE025BBDC200016A236 /* 509. Fibonacci Number.swift */,
 				8DAF45132BC8195400C974D1 /* 823. Binary Trees With Factors.swift */,
+				8DEBC6412C4A4AB1009F4ACA /* 1137. N-th Tribonacci Number.swift */,
+				8DEBC6422C4A59B3009F4ACA /* 746. Min Cost Climbing Stairs.swift */,
+				8DEBC6432C4A70BF009F4ACA /* 198. House Robber.swift */,
+				8DEBC6442C4AAD2B009F4ACA /* 62. Unique Paths.swift */,
 			);
 			path = "Dynamic Programming";
 			sourceTree = "<group>";
@@ -303,6 +314,7 @@
 				8D0AAE5A2BC3B29E003FFF51 /* 1570. Dot Product of Two Sparse Vectors.swift */,
 				8D0AAE6D2BC67CFA003FFF51 /* 215. Kth Largest Element in an Array.swift */,
 				8DEBC6312C428104009F4ACA /* 605. Can Place Flowers.swift */,
+				8DEBC6452C4B681B009F4ACA /* 1431. Kids With the Greatest Number of Candies.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -352,6 +364,8 @@
 				8D0AAE622BC406B2003FFF51 /* 1768. Merge Strings Alternately.swift */,
 				8DEBC62C2C4243AA009F4ACA /* 151. Reverse Words in a String.swift */,
 				8DEBC62F2C4274DD009F4ACA /* 2390. Removing Stars From a String.swift */,
+				8DEBC63F2C455474009F4ACA /* 345. Reverse Vowels of a String.swift */,
+				8DEBC6402C469326009F4ACA /* 443. String Compression.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
