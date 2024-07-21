@@ -137,6 +137,14 @@
 		8DEBC6432C4A70BF009F4ACA /* 198. House Robber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "198. House Robber.swift"; sourceTree = "<group>"; };
 		8DEBC6442C4AAD2B009F4ACA /* 62. Unique Paths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "62. Unique Paths.swift"; sourceTree = "<group>"; };
 		8DEBC6452C4B681B009F4ACA /* 1431. Kids With the Greatest Number of Candies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1431. Kids With the Greatest Number of Candies.swift"; sourceTree = "<group>"; };
+		8DEBC6462C4B77CD009F4ACA /* 547. Number of Provinces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "547. Number of Provinces.swift"; sourceTree = "<group>"; };
+		8DEBC6472C4B7AE4009F4ACA /* 657. Robot Return to Origin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "657. Robot Return to Origin.swift"; sourceTree = "<group>"; };
+		8DEBC6482C4C1705009F4ACA /* 120. Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "120. Triangle.swift"; sourceTree = "<group>"; };
+		8DEBC6492C4CC854009F4ACA /* 3032. Count Numbers With Unique Digits II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3032. Count Numbers With Unique Digits II.swift"; sourceTree = "<group>"; };
+		8DEBC64A2C4CD6B0009F4ACA /* 213. House Robber II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "213. House Robber II.swift"; sourceTree = "<group>"; };
+		8DEBC64B2C4CE787009F4ACA /* 256. Paint House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "256. Paint House.swift"; sourceTree = "<group>"; };
+		8DEBC64C2C4D2ABD009F4ACA /* 3. Longest Substring Without Repeating Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3. Longest Substring Without Repeating Characters.swift"; sourceTree = "<group>"; };
+		8DEBC64E2C4D469C009F4ACA /* 3205. Maximum Array Hopping Score I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3205. Maximum Array Hopping Score I.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -249,6 +257,7 @@
 				8DEBC6362C43BFDF009F4ACA /* 437. Path Sum III.swift */,
 				8DEBC63B2C4526F7009F4ACA /* 841. Keys and Rooms.swift */,
 				8DEBC63D2C454115009F4ACA /* 872. Leaf-Similar Trees.swift */,
+				8DEBC6462C4B77CD009F4ACA /* 547. Number of Provinces.swift */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
@@ -288,7 +297,12 @@
 				8DEBC6412C4A4AB1009F4ACA /* 1137. N-th Tribonacci Number.swift */,
 				8DEBC6422C4A59B3009F4ACA /* 746. Min Cost Climbing Stairs.swift */,
 				8DEBC6432C4A70BF009F4ACA /* 198. House Robber.swift */,
+				8DEBC64A2C4CD6B0009F4ACA /* 213. House Robber II.swift */,
 				8DEBC6442C4AAD2B009F4ACA /* 62. Unique Paths.swift */,
+				8DEBC6482C4C1705009F4ACA /* 120. Triangle.swift */,
+				8DEBC6492C4CC854009F4ACA /* 3032. Count Numbers With Unique Digits II.swift */,
+				8DEBC64B2C4CE787009F4ACA /* 256. Paint House.swift */,
+				8DEBC64E2C4D469C009F4ACA /* 3205. Maximum Array Hopping Score I.swift */,
 			);
 			path = "Dynamic Programming";
 			sourceTree = "<group>";
@@ -366,6 +380,7 @@
 				8DEBC62F2C4274DD009F4ACA /* 2390. Removing Stars From a String.swift */,
 				8DEBC63F2C455474009F4ACA /* 345. Reverse Vowels of a String.swift */,
 				8DEBC6402C469326009F4ACA /* 443. String Compression.swift */,
+				8DEBC6472C4B7AE4009F4ACA /* 657. Robot Return to Origin.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -456,8 +471,17 @@
 				8DA73DBD25B9501200595123 /* 344. Reverse String.swift */,
 				8D0AAE6B2BC66C0D003FFF51 /* 680. Valid Palindrome II.swift */,
 				8DE4FAA82C2A98D400B1753C /* 408. Valid Word Abbreviation.swift */,
+				8DEBC64D2C4D2AE2009F4ACA /* SlidingWindow */,
 			);
 			path = TwoPointers;
+			sourceTree = "<group>";
+		};
+		8DEBC64D2C4D2AE2009F4ACA /* SlidingWindow */ = {
+			isa = PBXGroup;
+			children = (
+				8DEBC64C2C4D2ABD009F4ACA /* 3. Longest Substring Without Repeating Characters.swift */,
+			);
+			path = SlidingWindow;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
