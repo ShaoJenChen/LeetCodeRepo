@@ -13,28 +13,24 @@ import Foundation
 
 class Solution {
     func verticalOrder(_ root: TreeNode?) -> [[Int]] {
-        
-        var columnTable = [Int: [Int]]()
+        var map = [Int: [Int]]()
+        //BFS
         var queue = [(TreeNode, Int)]()
-        var result = [[Int]]()
-
-        guard let root = root else { return []}
+        guard let root = root else { return [[Int]]() }
         queue.append((root, 0))
-
         while !queue.isEmpty {
-            let (node, column) = queue.removeFirst()
-            columnTable[column, default: []].append(node.val)
-            if let left = node.left {
-                queue.append((left, column - 1))
+            let item = queue.removeFirst()
+            let node = item.0
+            let col = item.1
+            map[col, default: []].append(node.val)
+            if node.left != nil {
+                queue.append((node.left!, col - 1))
             }
-            if let right = node.right {
-                queue.append((right, column + 1))
+            if node.right != nil {
+                queue.append((node.right!, col + 1))
             }
         }
-        for key in columnTable.keys.sorted() {
-            result.append(columnTable[key]!)
-        }
-
+        let result = map.sorted(by: { $0.key < $1.key }).map({ $0.value })
         return result
     }
 }

@@ -30,3 +30,16 @@ class Solution {
         
     }
 }
+
+//DP Solution
+class Solution {
+    func maxSubArray(_ nums: [Int]) -> Int {
+        var dp = Array(repeating: 0, count: nums.count)
+        dp[0] = nums.first!
+
+        for index in 1 ..< nums.count {
+            dp[index] = max(nums[index], nums[index] + dp[index - 1])
+        }
+        return dp.max()!
+    }
+}

@@ -145,6 +145,9 @@
 		8DEBC64B2C4CE787009F4ACA /* 256. Paint House.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "256. Paint House.swift"; sourceTree = "<group>"; };
 		8DEBC64C2C4D2ABD009F4ACA /* 3. Longest Substring Without Repeating Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3. Longest Substring Without Repeating Characters.swift"; sourceTree = "<group>"; };
 		8DEBC64E2C4D469C009F4ACA /* 3205. Maximum Array Hopping Score I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3205. Maximum Array Hopping Score I.swift"; sourceTree = "<group>"; };
+		8DEBC64F2C4D7759009F4ACA /* 734. Sentence Similarity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "734. Sentence Similarity.swift"; sourceTree = "<group>"; };
+		8DEBC6502C4E5BC8009F4ACA /* 366. Find Leaves of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "366. Find Leaves of Binary Tree.swift"; sourceTree = "<group>"; };
+		8DEBC6512C4F69DB009F4ACA /* 1143. Longest Common Subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143. Longest Common Subsequence.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -258,6 +261,7 @@
 				8DEBC63B2C4526F7009F4ACA /* 841. Keys and Rooms.swift */,
 				8DEBC63D2C454115009F4ACA /* 872. Leaf-Similar Trees.swift */,
 				8DEBC6462C4B77CD009F4ACA /* 547. Number of Provinces.swift */,
+				8DEBC6502C4E5BC8009F4ACA /* 366. Find Leaves of Binary Tree.swift */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
@@ -303,6 +307,7 @@
 				8DEBC6492C4CC854009F4ACA /* 3032. Count Numbers With Unique Digits II.swift */,
 				8DEBC64B2C4CE787009F4ACA /* 256. Paint House.swift */,
 				8DEBC64E2C4D469C009F4ACA /* 3205. Maximum Array Hopping Score I.swift */,
+				8DEBC6512C4F69DB009F4ACA /* 1143. Longest Common Subsequence.swift */,
 			);
 			path = "Dynamic Programming";
 			sourceTree = "<group>";
@@ -329,6 +334,7 @@
 				8D0AAE6D2BC67CFA003FFF51 /* 215. Kth Largest Element in an Array.swift */,
 				8DEBC6312C428104009F4ACA /* 605. Can Place Flowers.swift */,
 				8DEBC6452C4B681B009F4ACA /* 1431. Kids With the Greatest Number of Candies.swift */,
+				8DEBC64F2C4D7759009F4ACA /* 734. Sentence Similarity.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
