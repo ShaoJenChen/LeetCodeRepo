@@ -44,3 +44,28 @@ class Solution {
         return Array(reversed) == charArray
     }
 }
+
+//Two Pointers
+class Solution {
+    func isPalindrome(_ s: String) -> Bool {
+        var str = Array(s.lowercased()).map({ char -> String in
+          if char.isLetter || char.isNumber {
+            return String(char)
+          }
+          return ""
+        })
+        str.removeAll(where: { $0 == "" })
+
+        var left = 0
+        var right = str.count - 1
+
+        while left <= right {
+            if str[left] != str[right] {
+                return false
+            }
+            left += 1
+            right -= 1
+        }
+        return true
+    }
+}

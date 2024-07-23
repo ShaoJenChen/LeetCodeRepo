@@ -41,3 +41,33 @@ class Solution {
         return distinctWays[n]
     }
 }
+
+class Solution {
+    func climbStairs(_ n: Int) -> Int {
+        var dp = Array(repeating: 0, count: n + 1)
+        dp[0] = 1
+        dp[1] = 1
+        if n < 2 { return dp[n] }
+        for i in 2 ... n {
+            dp[i] = dp[i - 1] + dp[i - 2]
+        }
+        return dp[n]
+    }
+}
+
+class Solution {
+    func climbStairs(_ n: Int) -> Int {
+        var map = [Int: Int]()
+        func dp(_ n: Int) -> Int {
+            if n == 1 || n == 0 {
+                return 1
+            }
+            if let value = map[n] { return value }
+
+            let result = dp(n - 1) + dp(n - 2)
+            map[n] = result
+            return result
+        }
+        return dp(n)
+    }
+}

@@ -48,3 +48,26 @@ class Solution {
         return result
     }
 }
+
+//2024.7.23 通過 190 test case 但 某個test case runtime error
+//使用上面4月份AC的code一樣 run time error
+
+class Solution {
+    func maxProduct(_ nums: [Int]) -> Int {
+        var dpMax = Array(repeating: 0, count: nums.count)
+        var dpMin = Array(repeating: 0, count: nums.count)
+
+        dpMax[0] = nums[0]
+        dpMin[0] = nums[0]
+
+        for i in 1 ..< nums.count {
+            let productWithPreMax = nums[i] * dpMax[i - 1]
+            let productWithPreMin = nums[i] * dpMin[i - 1]
+
+            dpMax[i] = max(productWithPreMax, productWithPreMin, nums[i])
+            dpMin[i] = min(productWithPreMax, productWithPreMin, nums[i])
+        }
+        
+        return dpMax.max()!
+    }
+}

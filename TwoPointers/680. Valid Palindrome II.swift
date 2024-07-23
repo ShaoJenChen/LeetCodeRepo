@@ -55,3 +55,32 @@ class Solution {
     }
 
 }
+
+
+class Solution {
+
+    var removalCount = 1
+
+    func validPalindrome(_ s: String) -> Bool {
+        var str = Array(s)
+        var left = 0
+        var right = str.count - 1
+        
+        while left < right {
+
+            if str[left] != str[right] {
+                if removalCount == 0 { return false }
+                removalCount -= 1
+                var newS1 = str
+                var newS2 = str
+                newS1.remove(at: left)
+                newS2.remove(at: right)
+                return validPalindrome(String(newS1)) || validPalindrome(String(newS2))
+            }
+            left += 1
+            right -= 1
+        }
+        return true
+    }
+
+}

@@ -35,13 +35,29 @@ class Solution {
         var result = 0
         var currSum = 0
         for num in nums {
-
             currSum += num
-
-            result += dict[currSum - k, default: 0]
-
             dict[currSum, default: 0] += 1
+            result += dict[currSum - k, default: 0]
+            
         }
+        return result
+    }
+}
+
+
+class Solution {
+    func subarraySum(_ nums: [Int], _ k: Int) -> Int {
+        var result = 0
+        for i in 0 ..< nums.count {
+            var sum = 0
+            for j in i ..< nums.count {
+                sum += nums[j]
+                if sum == k {
+                     result += 1
+                }
+            }
+        }
+
         return result
     }
 }
