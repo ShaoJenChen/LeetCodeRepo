@@ -52,3 +52,20 @@ class Solution {
     }
 
 }
+
+//dp
+class Solution {
+    func generate(_ numRows: Int) -> [[Int]] {
+        var result = [[1],[1, 1]]
+        if numRows == 1 { return Array(arrayLiteral: result[0]) }
+        if numRows == 2 { return result }
+        for i in 2 ..< numRows  {
+            var currentRow = Array(repeating: 1, count: i + 1)
+            for j in 1 ..< i {
+                currentRow[j] = result[i - 1][j - 1] + result[i - 1][j]
+            }
+            result.append(currentRow)
+        }
+        return result
+    }
+}
