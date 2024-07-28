@@ -25,55 +25,20 @@ import Foundation
  *     public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
  * }
  */
+
+//2024/7/28
 class Solution {
-    func mergeTwoLists(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
-        if l1 == nil, l2 != nil { return l2 }
-        if l2 == nil, l1 != nil { return l1 }
-        if l1 == nil, l2 == nil { return nil }
+    func mergeTwoLists(_ list1: ListNode?, _ list2: ListNode?) -> ListNode? {
+        guard let list1 else { return list2 }
+        guard let list2 else { return list1 }
         
-        var firstList: ListNode! = l1
-        var secondList: ListNode! = l2
-        
-        var newList: ListNode?
-        
-        var head: ListNode?
-        
-        while firstList != nil ,secondList != nil {
-            
-            if newList == nil {
-                if firstList.val <= secondList.val {
-                    newList = firstList
-                    firstList = firstList.next
-                } else {
-                    newList = secondList
-                    secondList = secondList.next
-                }
-                
-                head = newList
-            }
-            if firstList == nil || secondList == nil {
-                break
-            }
-            
-            if firstList.val <= secondList.val {
-                newList?.next = firstList
-                newList = newList?.next
-                firstList = firstList.next
-            }
-            else {
-                newList?.next = secondList
-                newList = newList?.next
-                secondList = secondList.next
-            }
-            
+        if list1.val <= list2.val {
+            list1.next = mergeTwoLists(list1.next, list2)
+            return list1
         }
-        
-        if firstList == nil {
-            newList?.next = secondList
-        } else if secondList == nil {
-            newList?.next = firstList
+        else {
+            list2.next = mergeTwoLists(list2.next, list1)
+            return list2
         }
-        
-        return head
     }
 }

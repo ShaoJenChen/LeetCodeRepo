@@ -7,6 +7,21 @@
 
 import Foundation
 
+
+class Solution {
+    func minCost(_ costs: [[Int]]) -> Int {
+        var costs = costs
+        for i in 1 ..< costs.count {
+            costs[i][0] += min(costs[i - 1][1], costs[i - 1][2])
+            costs[i][1] += min(costs[i - 1][0], costs[i - 1][2])
+            costs[i][2] += min(costs[i - 1][1], costs[i - 1][0])
+        }
+        let minCost = costs.last!.min()!
+        return minCost
+    }
+}
+
+
 class Solution {
     func minCost(_ costs: [[Int]]) -> Int {
         var costs = costs

@@ -149,6 +149,11 @@
 		8DEBC6502C4E5BC8009F4ACA /* 366. Find Leaves of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "366. Find Leaves of Binary Tree.swift"; sourceTree = "<group>"; };
 		8DEBC6512C4F69DB009F4ACA /* 1143. Longest Common Subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1143. Longest Common Subsequence.swift"; sourceTree = "<group>"; };
 		8DEBC6522C500582009F4ACA /* 543. Diameter of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "543. Diameter of Binary Tree.swift"; sourceTree = "<group>"; };
+		8DEBC6532C552A7A009F4ACA /* 3173. Bitwise OR of Adjacent Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3173. Bitwise OR of Adjacent Elements.swift"; sourceTree = "<group>"; };
+		8DEBC6542C552BA2009F4ACA /* 3110. Score of a String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3110. Score of a String.swift"; sourceTree = "<group>"; };
+		8DEBC6552C552E20009F4ACA /* 1265. Print Immutable Linked List in Reverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1265. Print Immutable Linked List in Reverse.swift"; sourceTree = "<group>"; };
+		8DEBC6562C55348D009F4ACA /* 2000. Reverse Prefix of Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2000. Reverse Prefix of Word.swift"; sourceTree = "<group>"; };
+		8DEBC6572C555A60009F4ACA /* 203. Remove Linked List Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203. Remove Linked List Elements.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -368,6 +373,8 @@
 				8D951B9825B82E3600E28A8A /* 206. Reverse Linked List.swift */,
 				8D951B9725B8297800E28A8A /* 234. Palindrome Linked List.swift */,
 				8D9975CF25BAB400007611B0 /* 237. Delete Node in a Linked List.swift */,
+				8DEBC6552C552E20009F4ACA /* 1265. Print Immutable Linked List in Reverse.swift */,
+				8DEBC6572C555A60009F4ACA /* 203. Remove Linked List Elements.swift */,
 			);
 			path = "Linked List";
 			sourceTree = "<group>";
@@ -389,6 +396,8 @@
 				8DEBC63F2C455474009F4ACA /* 345. Reverse Vowels of a String.swift */,
 				8DEBC6402C469326009F4ACA /* 443. String Compression.swift */,
 				8DEBC6472C4B7AE4009F4ACA /* 657. Robot Return to Origin.swift */,
+				8DEBC6542C552BA2009F4ACA /* 3110. Score of a String.swift */,
+				8DEBC6562C55348D009F4ACA /* 2000. Reverse Prefix of Word.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -448,6 +457,7 @@
 				8D6A6B8024A1E69400AC9F9F /* 371. Sum of Two Integers.swift */,
 				8D87324025BD8AD5004C9256 /* 1290. Convert Binary Number in a Linked List to Integer.swift */,
 				8DEBC6322C4294CD009F4ACA /* 338. Counting Bits.swift */,
+				8DEBC6532C552A7A009F4ACA /* 3173. Bitwise OR of Adjacent Elements.swift */,
 			);
 			path = "Bit Manipulation";
 			sourceTree = "<group>";
