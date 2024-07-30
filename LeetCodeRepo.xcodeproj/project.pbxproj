@@ -154,6 +154,10 @@
 		8DEBC6552C552E20009F4ACA /* 1265. Print Immutable Linked List in Reverse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1265. Print Immutable Linked List in Reverse.swift"; sourceTree = "<group>"; };
 		8DEBC6562C55348D009F4ACA /* 2000. Reverse Prefix of Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2000. Reverse Prefix of Word.swift"; sourceTree = "<group>"; };
 		8DEBC6572C555A60009F4ACA /* 203. Remove Linked List Elements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "203. Remove Linked List Elements.swift"; sourceTree = "<group>"; };
+		8DEBC6592C575FD7009F4ACA /* 1971. Find if Path Exists in Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1971. Find if Path Exists in Graph.swift"; sourceTree = "<group>"; };
+		8DEBC65A2C578B4E009F4ACA /* 797. All Paths From Source to Target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "797. All Paths From Source to Target.swift"; sourceTree = "<group>"; };
+		8DEBC65B2C57B8A6009F4ACA /* 133. Clone Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "133. Clone Graph.swift"; sourceTree = "<group>"; };
+		8DEBC65C2C57C3C6009F4ACA /* 222. Count Complete Tree Nodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "222. Count Complete Tree Nodes.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -228,6 +232,7 @@
 				8D803EE125BC0B800016A236 /* Design */,
 				8D951B8925B7DFD500E28A8A /* Dynamic Programming */,
 				8D0AAE672BC55B3D003FFF51 /* Enumeration */,
+				8DEBC6582C575FB3009F4ACA /* Graph */,
 				8D9D83C727D4B88E0084225C /* Greedy */,
 				8D951B8B25B7E0D600E28A8A /* HashTable */,
 				8D951B8C25B7E14A00E28A8A /* Linked List */,
@@ -430,6 +435,7 @@
 				8D0AAE6A2BC5BA3F003FFF51 /* 1650. Lowest Common Ancestor of a Binary Tree III.swift */,
 				8DEBC62D2C4247C4009F4ACA /* 700. Search in a Binary Search Tree.swift */,
 				8DEBC62E2C426A4E009F4ACA /* 450. Delete Node in a BST.swift */,
+				8DEBC65C2C57C3C6009F4ACA /* 222. Count Complete Tree Nodes.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -500,6 +506,16 @@
 				8DEBC64C2C4D2ABD009F4ACA /* 3. Longest Substring Without Repeating Characters.swift */,
 			);
 			path = SlidingWindow;
+			sourceTree = "<group>";
+		};
+		8DEBC6582C575FB3009F4ACA /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				8DEBC6592C575FD7009F4ACA /* 1971. Find if Path Exists in Graph.swift */,
+				8DEBC65A2C578B4E009F4ACA /* 797. All Paths From Source to Target.swift */,
+				8DEBC65B2C57B8A6009F4ACA /* 133. Clone Graph.swift */,
+			);
+			path = Graph;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
