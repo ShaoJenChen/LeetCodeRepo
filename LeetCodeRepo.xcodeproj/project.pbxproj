@@ -158,6 +158,9 @@
 		8DEBC65A2C578B4E009F4ACA /* 797. All Paths From Source to Target.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "797. All Paths From Source to Target.swift"; sourceTree = "<group>"; };
 		8DEBC65B2C57B8A6009F4ACA /* 133. Clone Graph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "133. Clone Graph.swift"; sourceTree = "<group>"; };
 		8DEBC65C2C57C3C6009F4ACA /* 222. Count Complete Tree Nodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "222. Count Complete Tree Nodes.swift"; sourceTree = "<group>"; };
+		8DEBC65E2C58CBC8009F4ACA /* 116. Populating Next Right Pointers in Each Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "116. Populating Next Right Pointers in Each Node.swift"; sourceTree = "<group>"; };
+		8DEBC6602C58F249009F4ACA /* 1091. Shortest Path in Binary Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1091. Shortest Path in Binary Matrix.swift"; sourceTree = "<group>"; };
+		8DEBC6612C5926F7009F4ACA /* 994. Rotting Oranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "994. Rotting Oranges.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -511,11 +514,30 @@
 		8DEBC6582C575FB3009F4ACA /* Graph */ = {
 			isa = PBXGroup;
 			children = (
+				8DEBC65D2C58CBB6009F4ACA /* DFS */,
+				8DEBC65F2C58CBCD009F4ACA /* BFS */,
+			);
+			path = Graph;
+			sourceTree = "<group>";
+		};
+		8DEBC65D2C58CBB6009F4ACA /* DFS */ = {
+			isa = PBXGroup;
+			children = (
 				8DEBC6592C575FD7009F4ACA /* 1971. Find if Path Exists in Graph.swift */,
 				8DEBC65A2C578B4E009F4ACA /* 797. All Paths From Source to Target.swift */,
 				8DEBC65B2C57B8A6009F4ACA /* 133. Clone Graph.swift */,
 			);
-			path = Graph;
+			path = DFS;
+			sourceTree = "<group>";
+		};
+		8DEBC65F2C58CBCD009F4ACA /* BFS */ = {
+			isa = PBXGroup;
+			children = (
+				8DEBC65E2C58CBC8009F4ACA /* 116. Populating Next Right Pointers in Each Node.swift */,
+				8DEBC6602C58F249009F4ACA /* 1091. Shortest Path in Binary Matrix.swift */,
+				8DEBC6612C5926F7009F4ACA /* 994. Rotting Oranges.swift */,
+			);
+			path = BFS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
