@@ -40,32 +40,22 @@ import Foundation
 
 class Solution {
     func isValid(_ s: String) -> Bool {
-        var stack = [String]()
-        for (index,char) in s.enumerated() {
-            if char == "(" || char == "[" || char == "{" {
-                stack.append(String(char))
-            }
-            if char == ")" || char == "]" || char == "}" {
-                if stack.count == 0 {
-                    return false
+        let map = [")": "(", "]": "[", "}": "{"]
+        var stack = [Character]()
+        var s = Array(s)
+        for ch in s {
+            if ch == "(" || ch == "[" || ch == "{" { stack.append(ch) }
+            if ch == ")" || ch == "]" || ch == "}" {
+                guard let top = stack.last else { return false }
+                if String(top) == map[String(ch)] {
+                    stack.removeLast()
                 }
-                let closeBrackets  = stack.popLast()
-                if char == ")" && closeBrackets != "(" {
-                    return false
-                }
-                if char == "]" && closeBrackets != "[" {
-                    return false
-                }
-                if char == "}" && closeBrackets != "{" {
+                else {
                     return false
                 }
             }
         }
         
-        if stack.count != 0 {
-            return false
-        }
-        
-        return true
+        return stack.isEmpty
     }
 }

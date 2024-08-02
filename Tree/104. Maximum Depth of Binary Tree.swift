@@ -65,3 +65,32 @@ class Solution {
         return maxDepth
     }
 }
+
+//BFS
+class Solution {
+    var depth = Int.min
+
+    func maxDepth(_ root: TreeNode?) -> Int {
+        guard let root else { return 0 }
+        var queue = [(node: TreeNode?, layer: Int)]()
+        queue.append((root, 1))
+        while !queue.isEmpty {
+            let element = queue.removeFirst()
+            let node = element.node
+            let layer = element.layer
+
+            if node?.left == nil && node?.right == nil {
+                depth = max(depth, layer)
+            }
+            if let leftNode = node?.left {
+                queue.append((leftNode, layer + 1))
+            }
+            if let rightNode = node?.right {
+                queue.append((rightNode, layer + 1))
+            }
+            
+        }
+
+        return depth
+    }
+}

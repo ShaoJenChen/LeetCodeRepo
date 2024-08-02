@@ -161,6 +161,16 @@
 		8DEBC65E2C58CBC8009F4ACA /* 116. Populating Next Right Pointers in Each Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "116. Populating Next Right Pointers in Each Node.swift"; sourceTree = "<group>"; };
 		8DEBC6602C58F249009F4ACA /* 1091. Shortest Path in Binary Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1091. Shortest Path in Binary Matrix.swift"; sourceTree = "<group>"; };
 		8DEBC6612C5926F7009F4ACA /* 994. Rotting Oranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "994. Rotting Oranges.swift"; sourceTree = "<group>"; };
+		8DEBC6622C5A0A1F009F4ACA /* 404. Sum of Left Leaves.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "404. Sum of Left Leaves.swift"; sourceTree = "<group>"; };
+		8DEBC6632C5A78AF009F4ACA /* 622. Design Circular Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "622. Design Circular Queue.swift"; sourceTree = "<group>"; };
+		8DEBC6652C5A842A009F4ACA /* 346. Moving Average from Data Stream.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "346. Moving Average from Data Stream.swift"; sourceTree = "<group>"; };
+		8DEBC6662C5BADDD009F4ACA /* 286. Walls and Gates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "286. Walls and Gates.swift"; sourceTree = "<group>"; };
+		8DEBC6672C5CB19E009F4ACA /* 279. Perfect Squares.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "279. Perfect Squares.swift"; sourceTree = "<group>"; };
+		8DEBC6682C5CB615009F4ACA /* 322. Coin Change.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "322. Coin Change.swift"; sourceTree = "<group>"; };
+		8DEBC66A2C5CC964009F4ACA /* 739. Daily Temperatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "739. Daily Temperatures.swift"; sourceTree = "<group>"; };
+		8DEBC66B2C5CCE50009F4ACA /* 150. Evaluate Reverse Polish Notation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "150. Evaluate Reverse Polish Notation.swift"; sourceTree = "<group>"; };
+		8DEBC66C2C5CE68E009F4ACA /* 494. Target Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "494. Target Sum.swift"; sourceTree = "<group>"; };
+		8DEBC66D2C5D0E31009F4ACA /* 542. 01 Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "542. 01 Matrix.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -184,7 +194,11 @@
 		8D0AAE602BC3FB7B003FFF51 /* BFS */ = {
 			isa = PBXGroup;
 			children = (
+				8D803EE525BC447E0016A236 /* 200. Number of Islands.swift */,
 				8D0AAE612BC3FB8B003FFF51 /* 314. Binary Tree Vertical Order Traversal.swift */,
+				8DEBC6672C5CB19E009F4ACA /* 279. Perfect Squares.swift */,
+				8DEBC6682C5CB615009F4ACA /* 322. Coin Change.swift */,
+				8DEBC66D2C5D0E31009F4ACA /* 542. 01 Matrix.swift */,
 			);
 			path = BFS;
 			sourceTree = "<group>";
@@ -241,6 +255,7 @@
 				8D951B8C25B7E14A00E28A8A /* Linked List */,
 				8D951B9025B7E81300E28A8A /* Math */,
 				8D0AAE632BC42201003FFF51 /* Matrix */,
+				8DEBC6692C5CC944009F4ACA /* Monotonic Stack */,
 				8D8B796727DCCF7A00E7C7CE /* Prefix Sum */,
 				8D951B9525B81A3F00E28A8A /* Stack */,
 				8D951B8D25B7E55300E28A8A /* String */,
@@ -266,7 +281,6 @@
 			children = (
 				8D93FB5C27E754C800FC9DC0 /* 94. Binary Tree Inorder Traversal.swift */,
 				8D2256CC25BE6D3A00259A0D /* BackTracking */,
-				8D803EE525BC447E0016A236 /* 200. Number of Islands.swift */,
 				8D0AAE652BC53AD3003FFF51 /* 339. Nested List Weight Sum.swift */,
 				8DAF45142BC81C2E00C974D1 /* 938. Range Sum of BST.swift */,
 				8D6A6B7724A1E2A400AC9F9F /* 112. Path Sum.swift */,
@@ -277,6 +291,7 @@
 				8DEBC6462C4B77CD009F4ACA /* 547. Number of Provinces.swift */,
 				8DEBC6502C4E5BC8009F4ACA /* 366. Find Leaves of Binary Tree.swift */,
 				8DEBC6522C500582009F4ACA /* 543. Diameter of Binary Tree.swift */,
+				8DEBC66C2C5CE68E009F4ACA /* 494. Target Sum.swift */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
@@ -331,7 +346,6 @@
 		8D951B8A25B7E01D00E28A8A /* Array */ = {
 			isa = PBXGroup;
 			children = (
-				8D6A6B6224A1954B00AC9F9F /* 1. Two Sum.swift */,
 				8D6A6B6924A1DC1000AC9F9F /* 26. Remove Duplicates from Sorted Array.swift */,
 				8D6A6B6A24A1DCC500AC9F9F /* 27. Remove Element.swift */,
 				8D6A6B6C24A1DDD200AC9F9F /* 35. Search Insert Position.swift */,
@@ -350,6 +364,7 @@
 				8DEBC6312C428104009F4ACA /* 605. Can Place Flowers.swift */,
 				8DEBC6452C4B681B009F4ACA /* 1431. Kids With the Greatest Number of Candies.swift */,
 				8DEBC64F2C4D7759009F4ACA /* 734. Sentence Similarity.swift */,
+				8DEBC6652C5A842A009F4ACA /* 346. Moving Average from Data Stream.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -357,6 +372,7 @@
 		8D951B8B25B7E0D600E28A8A /* HashTable */ = {
 			isa = PBXGroup;
 			children = (
+				8D6A6B6224A1954B00AC9F9F /* 1. Two Sum.swift */,
 				8D6A6B7C24A1E4D700AC9F9F /* 136. Single Number.swift */,
 				8D9975D125BADAF6007611B0 /* 160. Intersection of Two Linked Lists.swift */,
 				8D3ACF2725B852DB00994980 /* 202. Happy Number.swift */,
@@ -439,6 +455,7 @@
 				8DEBC62D2C4247C4009F4ACA /* 700. Search in a Binary Search Tree.swift */,
 				8DEBC62E2C426A4E009F4ACA /* 450. Delete Node in a BST.swift */,
 				8DEBC65C2C57C3C6009F4ACA /* 222. Count Complete Tree Nodes.swift */,
+				8DEBC6622C5A0A1F009F4ACA /* 404. Sum of Left Leaves.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -477,6 +494,7 @@
 				8D0AAE5B2BC3BD28003FFF51 /* Stack And Queue */,
 				8D951B9625B81A5400E28A8A /* 155. Min Stack.swift */,
 				8D0AAE712BC78B6E003FFF51 /* 402. Remove K Digits.swift */,
+				8DEBC66B2C5CCE50009F4ACA /* 150. Evaluate Reverse Polish Notation.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
@@ -493,6 +511,7 @@
 		8DA73DBC25B94FDF00595123 /* TwoPointers */ = {
 			isa = PBXGroup;
 			children = (
+				8DEBC6642C5A78B6009F4ACA /* Design */,
 				8D0AAE5D2BC3C86C003FFF51 /* Sort */,
 				8D9D83C427D4A3C80084225C /* 11. Container With Most Water.swift */,
 				8DA73DBD25B9501200595123 /* 344. Reverse String.swift */,
@@ -536,8 +555,25 @@
 				8DEBC65E2C58CBC8009F4ACA /* 116. Populating Next Right Pointers in Each Node.swift */,
 				8DEBC6602C58F249009F4ACA /* 1091. Shortest Path in Binary Matrix.swift */,
 				8DEBC6612C5926F7009F4ACA /* 994. Rotting Oranges.swift */,
+				8DEBC6662C5BADDD009F4ACA /* 286. Walls and Gates.swift */,
 			);
 			path = BFS;
+			sourceTree = "<group>";
+		};
+		8DEBC6642C5A78B6009F4ACA /* Design */ = {
+			isa = PBXGroup;
+			children = (
+				8DEBC6632C5A78AF009F4ACA /* 622. Design Circular Queue.swift */,
+			);
+			path = Design;
+			sourceTree = "<group>";
+		};
+		8DEBC6692C5CC944009F4ACA /* Monotonic Stack */ = {
+			isa = PBXGroup;
+			children = (
+				8DEBC66A2C5CC964009F4ACA /* 739. Daily Temperatures.swift */,
+			);
+			path = "Monotonic Stack";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

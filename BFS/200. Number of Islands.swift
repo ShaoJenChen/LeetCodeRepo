@@ -41,7 +41,49 @@
 
 import Foundation
 
+//BFS
+class Solution {
+    func numIslands(_ grid: [[Character]]) -> Int {
+        var grid = grid
+        var islandsCount = 0
+        let m = grid.count
+        let n = grid[0].count
+        var visited = Array(repeating: Array(repeating: false, count: n), count: m)
+        for i in 0 ..< m {
+            for j in 0 ..< n {
+                if grid[i][j] == "1" {
+                    islandsCount += 1
+                    //BFS
+                    var queue = [(i: Int, j: Int)]()
+                    queue.append((i, j))
+                    visited[i][j] = true
+                    while !queue.isEmpty {
+                        let element = queue.removeFirst()
+                        let current_i = element.i
+                        let current_j = element.j
+                        grid[current_i][current_j] = "0"
+                        
+                        let four_direction: [(i: Int, j: Int)] = [(current_i - 1, current_j),
+                                                                  (current_i + 1, current_j),
+                                                                  (current_i, current_j - 1),
+                                                                  (current_i, current_j + 1)]
+                        for direction in four_direction {
+                            guard 0 ..< m ~= direction.i, 0 ..< n ~= direction.j else { continue }
+                            guard grid[direction.i][direction.j] == "1" else { continue }
+                            guard visited[direction.i][direction.j] == false else { continue }
+                            queue.append((direction.i, direction.j))
+                            visited[direction.i][direction.j] = true
+                        }
+                    }
+                }
+            }
+        }
+        return islandsCount
+    }
+}
 
+
+//DFS
 class Solution {
     func numIslands(_ grid: [[Character]]) -> Int {
         
