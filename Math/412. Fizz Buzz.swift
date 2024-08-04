@@ -37,6 +37,24 @@ import Foundation
 
 class Solution {
     func fizzBuzz(_ n: Int) -> [String] {
+        var resultArr = [String]()
+        let arr: [(number: Int, name: String)] = [(3, "Fizz"), (5, "Buzz")]
+        for i in 1 ... n {
+            var resultStr = ""
+            for tuple in arr {
+                if i % tuple.number == 0 {
+                    resultStr += tuple.name
+                }
+            }
+            resultStr = resultStr.isEmpty ? String(i) : resultStr
+            resultArr.append(resultStr)
+        }
+        return resultArr
+    }
+}
+
+class Solution {
+    func fizzBuzz(_ n: Int) -> [String] {
         var result = [String]()
         for number in 1 ... n {
             if number % 3 == 0 && number % 5 == 0 {

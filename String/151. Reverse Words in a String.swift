@@ -21,3 +21,28 @@ class Solution {
         return result
     }
 }
+
+//Queue
+class Solution {
+    func reverseWords(_ s: String) -> String {
+        let s = Array(s)
+        var queue = [Character]()
+        var splitedStr = [String]()
+        for i in 0 ..< s.count {
+            guard s[i].isLetter || s[i].isNumber else {
+                if !queue.isEmpty {
+                    splitedStr.insert(String(queue), at: 0)
+                    queue.removeAll()
+                }
+                continue
+            }
+            queue.append(s[i])
+        }
+        if !queue.isEmpty {
+            splitedStr.insert(String(queue), at: 0)
+        }
+        var resultStr = splitedStr.reduce("", { $0 + " " + $1})
+        resultStr.removeFirst()
+        return resultStr
+    }
+}

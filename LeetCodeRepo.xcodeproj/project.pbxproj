@@ -171,6 +171,12 @@
 		8DEBC66B2C5CCE50009F4ACA /* 150. Evaluate Reverse Polish Notation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "150. Evaluate Reverse Polish Notation.swift"; sourceTree = "<group>"; };
 		8DEBC66C2C5CE68E009F4ACA /* 494. Target Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "494. Target Sum.swift"; sourceTree = "<group>"; };
 		8DEBC66D2C5D0E31009F4ACA /* 542. 01 Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "542. 01 Matrix.swift"; sourceTree = "<group>"; };
+		8DEBC66E2C5E03F6009F4ACA /* 394. Decode String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "394. Decode String.swift"; sourceTree = "<group>"; };
+		8DEBC66F2C5E0439009F4ACA /* 271. Encode and Decode Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "271. Encode and Decode Strings.swift"; sourceTree = "<group>"; };
+		8DEBC6702C5E1DFE009F4ACA /* 144. Binary Tree Preorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "144. Binary Tree Preorder Traversal.swift"; sourceTree = "<group>"; };
+		8DEBC6712C5E1E7F009F4ACA /* 145. Binary Tree Postorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "145. Binary Tree Postorder Traversal.swift"; sourceTree = "<group>"; };
+		8DEBC6722C5E2D67009F4ACA /* 735. Asteroid Collision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "735. Asteroid Collision.swift"; sourceTree = "<group>"; };
+		8DEBC6732C5E5A0F009F4ACA /* 733. Flood Fill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "733. Flood Fill.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -292,6 +298,7 @@
 				8DEBC6502C4E5BC8009F4ACA /* 366. Find Leaves of Binary Tree.swift */,
 				8DEBC6522C500582009F4ACA /* 543. Diameter of Binary Tree.swift */,
 				8DEBC66C2C5CE68E009F4ACA /* 494. Target Sum.swift */,
+				8DEBC6732C5E5A0F009F4ACA /* 733. Flood Fill.swift */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
@@ -422,6 +429,8 @@
 				8DEBC6472C4B7AE4009F4ACA /* 657. Robot Return to Origin.swift */,
 				8DEBC6542C552BA2009F4ACA /* 3110. Score of a String.swift */,
 				8DEBC6562C55348D009F4ACA /* 2000. Reverse Prefix of Word.swift */,
+				8DEBC66E2C5E03F6009F4ACA /* 394. Decode String.swift */,
+				8DEBC66F2C5E0439009F4ACA /* 271. Encode and Decode Strings.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -456,6 +465,8 @@
 				8DEBC62E2C426A4E009F4ACA /* 450. Delete Node in a BST.swift */,
 				8DEBC65C2C57C3C6009F4ACA /* 222. Count Complete Tree Nodes.swift */,
 				8DEBC6622C5A0A1F009F4ACA /* 404. Sum of Left Leaves.swift */,
+				8DEBC6702C5E1DFE009F4ACA /* 144. Binary Tree Preorder Traversal.swift */,
+				8DEBC6712C5E1E7F009F4ACA /* 145. Binary Tree Postorder Traversal.swift */,
 			);
 			path = Tree;
 			sourceTree = "<group>";
@@ -495,6 +506,7 @@
 				8D951B9625B81A5400E28A8A /* 155. Min Stack.swift */,
 				8D0AAE712BC78B6E003FFF51 /* 402. Remove K Digits.swift */,
 				8DEBC66B2C5CCE50009F4ACA /* 150. Evaluate Reverse Polish Notation.swift */,
+				8DEBC6722C5E2D67009F4ACA /* 735. Asteroid Collision.swift */,
 			);
 			path = Stack;
 			sourceTree = "<group>";
