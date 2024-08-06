@@ -20,6 +20,25 @@
 
 import Foundation
 
+//two pointers
+class Solution {
+    func moveZeroes(_ nums: inout [Int]) {
+        var reader = 0
+        var writer = 0
+        while reader < nums.count {
+            if nums[reader] != 0 {
+                nums[writer] = nums[reader]
+                writer += 1
+            }
+            reader += 1
+        }
+        while writer < nums.count {
+            nums[writer] = 0
+            writer += 1
+        }
+    }
+}
+
 class Solution {
     func moveZeroes(_ nums: inout [Int]) {
         var zeroIndexs = [Int]()

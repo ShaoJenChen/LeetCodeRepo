@@ -90,6 +90,7 @@
 		8D951B9A25B83D5D00E28A8A /* 125. Valid Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "125. Valid Palindrome.swift"; sourceTree = "<group>"; };
 		8D962D5227D8FDDB00C0738A /* 1299. Replace Elements with Greatest Element on Right Side.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1299. Replace Elements with Greatest Element on Right Side.swift"; sourceTree = "<group>"; };
 		8D96CB8025BAF90C000649EF /* 350. Intersection of Two Arrays II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "350. Intersection of Two Arrays II.swift"; sourceTree = "<group>"; };
+		8D96FBF02C62098300439518 /* 238. Product of Array Except Self.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "238. Product of Array Except Self.swift"; sourceTree = "<group>"; };
 		8D9712AB27DE4C2600E46436 /* 228. Summary Ranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "228. Summary Ranges.swift"; sourceTree = "<group>"; };
 		8D994B5C25B9B5210065952C /* 204. Count Primes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "204. Count Primes.swift"; sourceTree = "<group>"; };
 		8D994B5D25B9C15C0065952C /* 268. Missing Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "268. Missing Number.swift"; sourceTree = "<group>"; };
@@ -177,6 +178,18 @@
 		8DEBC6712C5E1E7F009F4ACA /* 145. Binary Tree Postorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "145. Binary Tree Postorder Traversal.swift"; sourceTree = "<group>"; };
 		8DEBC6722C5E2D67009F4ACA /* 735. Asteroid Collision.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "735. Asteroid Collision.swift"; sourceTree = "<group>"; };
 		8DEBC6732C5E5A0F009F4ACA /* 733. Flood Fill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "733. Flood Fill.swift"; sourceTree = "<group>"; };
+		8DEBC6742C607F2E009F4ACA /* 392. Is Subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "392. Is Subsequence.swift"; sourceTree = "<group>"; };
+		8DEBC6752C60895C009F4ACA /* 1679. Max Number of K-Sum Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1679. Max Number of K-Sum Pairs.swift"; sourceTree = "<group>"; };
+		8DEBC6762C60A1EE009F4ACA /* 643. Maximum Average Subarray I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "643. Maximum Average Subarray I.swift"; sourceTree = "<group>"; };
+		8DEBC6772C60A6CD009F4ACA /* 1456. Maximum Number of Vowels in a Substring of Given Length.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1456. Maximum Number of Vowels in a Substring of Given Length.swift"; sourceTree = "<group>"; };
+		8DEBC6782C60AC4C009F4ACA /* 485. Max Consecutive Ones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "485. Max Consecutive Ones.swift"; sourceTree = "<group>"; };
+		8DEBC6792C60B0C7009F4ACA /* 487. Max Consecutive Ones II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "487. Max Consecutive Ones II.swift"; sourceTree = "<group>"; };
+		8DEBC67A2C60B15A009F4ACA /* 1004. Max Consecutive Ones III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1004. Max Consecutive Ones III.swift"; sourceTree = "<group>"; };
+		8DEBC67B2C60B8DE009F4ACA /* 1493. Longest Subarray of 1's After Deleting One Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1493. Longest Subarray of 1's After Deleting One Element.swift"; sourceTree = "<group>"; };
+		8DEBC67C2C60F575009F4ACA /* 1448. Count Good Nodes in Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1448. Count Good Nodes in Binary Tree.swift"; sourceTree = "<group>"; };
+		8DEBC67D2C61C55C009F4ACA /* 2215. Find the Difference of Two Arrays.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2215. Find the Difference of Two Arrays.swift"; sourceTree = "<group>"; };
+		8DEBC67E2C61CA03009F4ACA /* 1657. Determine if Two Strings Are Close.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1657. Determine if Two Strings Are Close.swift"; sourceTree = "<group>"; };
+		8DEBC67F2C61FF07009F4ACA /* 334. Increasing Triplet Subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "334. Increasing Triplet Subsequence.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
@@ -299,6 +312,7 @@
 				8DEBC6522C500582009F4ACA /* 543. Diameter of Binary Tree.swift */,
 				8DEBC66C2C5CE68E009F4ACA /* 494. Target Sum.swift */,
 				8DEBC6732C5E5A0F009F4ACA /* 733. Flood Fill.swift */,
+				8DEBC67C2C60F575009F4ACA /* 1448. Count Good Nodes in Binary Tree.swift */,
 			);
 			path = DFS;
 			sourceTree = "<group>";
@@ -319,6 +333,7 @@
 				8D0AAE692BC568DC003FFF51 /* 560. Subarray Sum Equals K.swift */,
 				8DEBC6382C44F18A009F4ACA /* 1732. Find the Highest Altitude.swift */,
 				8DEBC6392C44F824009F4ACA /* 724. Find Pivot Index, 1991. Find the Middle Index in Array.swift */,
+				8D96FBF02C62098300439518 /* 238. Product of Array Except Self.swift */,
 			);
 			path = "Prefix Sum";
 			sourceTree = "<group>";
@@ -364,7 +379,6 @@
 				8D6A6B7D24A1E52500AC9F9F /* 169. Majority Element.swift */,
 				8D9712AB27DE4C2600E46436 /* 228. Summary Ranges.swift */,
 				8D994B5D25B9C15C0065952C /* 268. Missing Number.swift */,
-				8D951B9425B8129400E28A8A /* 283. Move Zeroes.swift */,
 				8D962D5227D8FDDB00C0738A /* 1299. Replace Elements with Greatest Element on Right Side.swift */,
 				8D0AAE5A2BC3B29E003FFF51 /* 1570. Dot Product of Two Sparse Vectors.swift */,
 				8D0AAE6D2BC67CFA003FFF51 /* 215. Kth Largest Element in an Array.swift */,
@@ -372,6 +386,7 @@
 				8DEBC6452C4B681B009F4ACA /* 1431. Kids With the Greatest Number of Candies.swift */,
 				8DEBC64F2C4D7759009F4ACA /* 734. Sentence Similarity.swift */,
 				8DEBC6652C5A842A009F4ACA /* 346. Moving Average from Data Stream.swift */,
+				8DEBC67F2C61FF07009F4ACA /* 334. Increasing Triplet Subsequence.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";
@@ -390,6 +405,8 @@
 				8DA1BE2E25C01C1600BEA3D5 /* 217. Contains Duplicate.swift */,
 				8D93D67A27DF8B2800D21669 /* 219. Contains Duplicate II.swift */,
 				8DEBC63C2C453E31009F4ACA /* 1207. Unique Number of Occurrences.swift */,
+				8DEBC67D2C61C55C009F4ACA /* 2215. Find the Difference of Two Arrays.swift */,
+				8DEBC67E2C61CA03009F4ACA /* 1657. Determine if Two Strings Are Close.swift */,
 			);
 			path = HashTable;
 			sourceTree = "<group>";
@@ -529,7 +546,10 @@
 				8DA73DBD25B9501200595123 /* 344. Reverse String.swift */,
 				8D0AAE6B2BC66C0D003FFF51 /* 680. Valid Palindrome II.swift */,
 				8DE4FAA82C2A98D400B1753C /* 408. Valid Word Abbreviation.swift */,
+				8D951B9425B8129400E28A8A /* 283. Move Zeroes.swift */,
 				8DEBC64D2C4D2AE2009F4ACA /* SlidingWindow */,
+				8DEBC6742C607F2E009F4ACA /* 392. Is Subsequence.swift */,
+				8DEBC6752C60895C009F4ACA /* 1679. Max Number of K-Sum Pairs.swift */,
 			);
 			path = TwoPointers;
 			sourceTree = "<group>";
@@ -538,6 +558,12 @@
 			isa = PBXGroup;
 			children = (
 				8DEBC64C2C4D2ABD009F4ACA /* 3. Longest Substring Without Repeating Characters.swift */,
+				8DEBC6762C60A1EE009F4ACA /* 643. Maximum Average Subarray I.swift */,
+				8DEBC6772C60A6CD009F4ACA /* 1456. Maximum Number of Vowels in a Substring of Given Length.swift */,
+				8DEBC6782C60AC4C009F4ACA /* 485. Max Consecutive Ones.swift */,
+				8DEBC6792C60B0C7009F4ACA /* 487. Max Consecutive Ones II.swift */,
+				8DEBC67A2C60B15A009F4ACA /* 1004. Max Consecutive Ones III.swift */,
+				8DEBC67B2C60B8DE009F4ACA /* 1493. Longest Subarray of 1's After Deleting One Element.swift */,
 			);
 			path = SlidingWindow;
 			sourceTree = "<group>";

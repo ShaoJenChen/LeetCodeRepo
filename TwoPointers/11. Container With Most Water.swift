@@ -28,6 +28,25 @@ import Foundation
 
 class Solution {
     func maxArea(_ height: [Int]) -> Int {
+        var leftPointer = 0
+        var rightPointer = height.count - 1
+        var resultArea = Int.min
+        while leftPointer < rightPointer {
+            let length = rightPointer - leftPointer
+            let currentHeight = min(height[leftPointer], height[rightPointer])
+            let currentArea = length * currentHeight
+            resultArea = max(currentArea, resultArea)
+            if height[leftPointer] > height[rightPointer] { rightPointer -= 1 }
+            else { leftPointer += 1}
+        }
+        return resultArea
+    }
+}
+
+
+
+class Solution {
+    func maxArea(_ height: [Int]) -> Int {
         
         var result = 0
         
