@@ -25,25 +25,33 @@ public class ListNode {
     public init(_ val: Int, _ next: ListNode?) { self.val = val; self.next = next; }
 }
 
+
 class Solution {
     func reverseList(_ head: ListNode?) -> ListNode? {
-        guard head != nil else { return nil }
-        var nodes = [ListNode?]()
+        var previousNode: ListNode? = nil
         var currentNode = head
         while currentNode != nil {
-            nodes.append(currentNode)
-            currentNode = currentNode?.next
+            let nextNode = currentNode?.next
+            currentNode?.next = previousNode
+            previousNode = currentNode
+            currentNode = nextNode
         }
-        let head = nodes.last!
-        while nodes.count != 0 {
-            let last = nodes.popLast()!!
-            
-            if let nextLast = nodes.last {
-                last.next = nextLast
-            }
-            else {
-                last.next = nil
-            }
+        return previousNode
+    }
+}
+
+class Solution {
+    func reverseList(_ head: ListNode?) -> ListNode? {
+        var stack = [ListNode]()
+        var head = head
+        while head != nil {
+            stack.append(head!)
+            if head?.next == nil { break }
+            head = head?.next
+        }
+        while !stack.isEmpty {
+            let popNode = stack.removeLast()
+            popNode.next = stack.last
         }
         return head
     }

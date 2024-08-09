@@ -91,6 +91,12 @@
 		8D962D5227D8FDDB00C0738A /* 1299. Replace Elements with Greatest Element on Right Side.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1299. Replace Elements with Greatest Element on Right Side.swift"; sourceTree = "<group>"; };
 		8D96CB8025BAF90C000649EF /* 350. Intersection of Two Arrays II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "350. Intersection of Two Arrays II.swift"; sourceTree = "<group>"; };
 		8D96FBF02C62098300439518 /* 238. Product of Array Except Self.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "238. Product of Array Except Self.swift"; sourceTree = "<group>"; };
+		8D96FBF12C622B5C00439518 /* 496. Next Greater Element I.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "496. Next Greater Element I.swift"; sourceTree = "<group>"; };
+		8D96FBF22C6240B400439518 /* 2095. Delete the Middle Node of a Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2095. Delete the Middle Node of a Linked List.swift"; sourceTree = "<group>"; };
+		8D96FBF32C6248A500439518 /* 328. Odd Even Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "328. Odd Even Linked List.swift"; sourceTree = "<group>"; };
+		8D96FBF42C6369E800439518 /* 300. Longest Increasing Subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300. Longest Increasing Subsequence.swift"; sourceTree = "<group>"; };
+		8D96FBF52C6472D700439518 /* 139. Word Break.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "139. Word Break.swift"; sourceTree = "<group>"; };
+		8D96FBF62C65AC8400439518 /* 2130. Maximum Twin Sum of a Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2130. Maximum Twin Sum of a Linked List.swift"; sourceTree = "<group>"; };
 		8D9712AB27DE4C2600E46436 /* 228. Summary Ranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "228. Summary Ranges.swift"; sourceTree = "<group>"; };
 		8D994B5C25B9B5210065952C /* 204. Count Primes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "204. Count Primes.swift"; sourceTree = "<group>"; };
 		8D994B5D25B9C15C0065952C /* 268. Missing Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "268. Missing Number.swift"; sourceTree = "<group>"; };
@@ -341,26 +347,28 @@
 		8D951B8925B7DFD500E28A8A /* Dynamic Programming */ = {
 			isa = PBXGroup;
 			children = (
-				8DAF45122BC7DD9900C974D1 /* 5. Longest Palindromic Substring.swift */,
-				8D6A6B6D24A1DE4400AC9F9F /* 53. Maximum Subarray.swift */,
 				8D8B796527DCB4D200E7C7CE /* 64. Minimum Path Sum.swift */,
-				8D6A6B7224A1E0A000AC9F9F /* 70. Climbing Stairs.swift */,
-				8D6A6B7824A1E31800AC9F9F /* 118. Pascal's Triangle.swift */,
 				8D6A6B7A24A1E41F00AC9F9F /* 121. Best Time to Buy and Sell Stock.swift */,
 				8DAF45112BC7BE9A00C974D1 /* 152. Maximum Product Subarray.swift */,
 				8D951B9325B7FDEB00E28A8A /* 303. Range Sum Query - Immutable.swift */,
 				8D803EE025BBDC200016A236 /* 509. Fibonacci Number.swift */,
 				8DAF45132BC8195400C974D1 /* 823. Binary Trees With Factors.swift */,
-				8DEBC6412C4A4AB1009F4ACA /* 1137. N-th Tribonacci Number.swift */,
-				8DEBC6422C4A59B3009F4ACA /* 746. Min Cost Climbing Stairs.swift */,
-				8DEBC6432C4A70BF009F4ACA /* 198. House Robber.swift */,
-				8DEBC64A2C4CD6B0009F4ACA /* 213. House Robber II.swift */,
-				8DEBC6442C4AAD2B009F4ACA /* 62. Unique Paths.swift */,
 				8DEBC6482C4C1705009F4ACA /* 120. Triangle.swift */,
 				8DEBC6492C4CC854009F4ACA /* 3032. Count Numbers With Unique Digits II.swift */,
+				8DEBC6422C4A59B3009F4ACA /* 746. Min Cost Climbing Stairs.swift */,
+				8DEBC6412C4A4AB1009F4ACA /* 1137. N-th Tribonacci Number.swift */,
 				8DEBC64B2C4CE787009F4ACA /* 256. Paint House.swift */,
-				8DEBC64E2C4D469C009F4ACA /* 3205. Maximum Array Hopping Score I.swift */,
+				8D6A6B7824A1E31800AC9F9F /* 118. Pascal's Triangle.swift */,
+				8D96FBF42C6369E800439518 /* 300. Longest Increasing Subsequence.swift */,
+				8DEBC6432C4A70BF009F4ACA /* 198. House Robber.swift */,
+				8DEBC64A2C4CD6B0009F4ACA /* 213. House Robber II.swift */,
+				8D6A6B6D24A1DE4400AC9F9F /* 53. Maximum Subarray.swift */,
+				8D96FBF52C6472D700439518 /* 139. Word Break.swift */,
 				8DEBC6512C4F69DB009F4ACA /* 1143. Longest Common Subsequence.swift */,
+				8DEBC64E2C4D469C009F4ACA /* 3205. Maximum Array Hopping Score I.swift */,
+				8DAF45122BC7DD9900C974D1 /* 5. Longest Palindromic Substring.swift */,
+				8D6A6B7224A1E0A000AC9F9F /* 70. Climbing Stairs.swift */,
+				8DEBC6442C4AAD2B009F4ACA /* 62. Unique Paths.swift */,
 			);
 			path = "Dynamic Programming";
 			sourceTree = "<group>";
@@ -423,6 +431,9 @@
 				8D9975CF25BAB400007611B0 /* 237. Delete Node in a Linked List.swift */,
 				8DEBC6552C552E20009F4ACA /* 1265. Print Immutable Linked List in Reverse.swift */,
 				8DEBC6572C555A60009F4ACA /* 203. Remove Linked List Elements.swift */,
+				8D96FBF22C6240B400439518 /* 2095. Delete the Middle Node of a Linked List.swift */,
+				8D96FBF32C6248A500439518 /* 328. Odd Even Linked List.swift */,
+				8D96FBF62C65AC8400439518 /* 2130. Maximum Twin Sum of a Linked List.swift */,
 			);
 			path = "Linked List";
 			sourceTree = "<group>";
@@ -610,6 +621,7 @@
 			isa = PBXGroup;
 			children = (
 				8DEBC66A2C5CC964009F4ACA /* 739. Daily Temperatures.swift */,
+				8D96FBF12C622B5C00439518 /* 496. Next Greater Element I.swift */,
 			);
 			path = "Monotonic Stack";
 			sourceTree = "<group>";

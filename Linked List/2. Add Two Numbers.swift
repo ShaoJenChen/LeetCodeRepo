@@ -36,84 +36,25 @@ import Foundation
  */
 class Solution {
     func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
+        var resultHeadNode = ListNode(0)
+        var currentNode: ListNode? = resultHeadNode
 
-        var currentL1 = l1
-        var currentL2 = l2
-        
-        var carryDigit = 0
-        
-        var resultArr = [ListNode]()
-        
-        //先處理同時都有值的情況
-        while (currentL1 != nil && currentL2 != nil) {
-            
-            let sum = currentL1!.val + currentL2!.val
-            
-            let currentDigit = (sum + carryDigit) % 10
-            resultArr.append(ListNode(currentDigit))
-            carryDigit = (sum + carryDigit) / 10
-            
-            currentL1 = currentL1!.next
-            currentL2 = currentL2!.next
+        var l1 = l1
+        var l2 = l2
+        var carry = 0
+        while l1 != nil || l2 != nil || carry != 0 {
+            let l1Value = l1 == nil ? 0 : l1!.val
+            let l2Value = l2 == nil ? 0 : l2!.val
+            var sum = l1Value + l2Value + carry
+            let newNode = ListNode(sum % 10)
+            carry = sum / 10
+            currentNode?.next = newNode
+            currentNode = currentNode?.next
+            l1 = l1?.next
+            l2 = l2?.next
         }
         
-        //再處理剩下的值
-        if currentL1 == nil {
-            
-            while (currentL2 != nil) {
-                
-                let sum = carryDigit + currentL2!.val
-                
-                let currentDigit = sum % 10
-                resultArr.append(ListNode(currentDigit))
-                carryDigit = sum / 10
-                
-                currentL2 = currentL2!.next
-            }
-        }
-        else if currentL2 == nil {
-            
-            while (currentL1 != nil) {
-                
-                let sum = carryDigit + currentL1!.val
-                
-                let currentDigit = sum % 10
-                resultArr.append(ListNode(currentDigit))
-                carryDigit = sum / 10
-                
-                currentL1 = currentL1!.next
-            }
-            
-        }
-        
-        //最後處理進位位元值若還有值的情況
-        if carryDigit != 0 {
-            resultArr.append(ListNode(1))
-        }
-        
-        //先將第一個Node取出，最後會回傳這一個
-        let firstNode = resultArr.first
-        var currentNode = firstNode
-        var currentIndex = 0
-        //將每個元素連結起來
-        while(currentIndex + 1 < resultArr.count) {
-            let nextNode = resultArr[currentIndex+1]
-            currentNode!.next = nextNode
-            currentNode = nextNode
-            currentIndex += 1
-        }
-        
-        return firstNode
+        return resultHeadNode.next
     }
         
-}
-
-class Solution {
-    private var dig = 0
-    func addTwoNumbers(_ l1: ListNode?, _ l2: ListNode?) -> ListNode? {
-        if l1 == nil && l2 == nil && dig == 0 { return nil }
-        let sum = (l1?.val ?? 0) + (l2?.val ?? 0) + dig
-        dig = sum / 10
-        return .init(sum % 10, addTwoNumbers(l1?.next, l2?.next))
-    }
 }

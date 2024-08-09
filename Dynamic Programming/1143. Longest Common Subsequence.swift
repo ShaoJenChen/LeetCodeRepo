@@ -32,6 +32,33 @@ class Solution {
         return dp(0, 0)
     }
 }
+//DP
+class Solution {
+    func longestCommonSubsequence(_ text1: String, _ text2: String) -> Int {
+        //base case text vs "" => 0
+        //dp[i][j] = 1 + dp[i - 1][j - 1]
+        // or max(dp[i - 1][j], dp[i][j - 1])
+        //bottom up
+        //Time: O(n*m)
+        //Space: O(n*m)
+        var text1 = Array(text1)
+        var text2 = Array(text2)
+        let m = text1.count
+        let n = text2.count
+        var dp = Array(repeating: Array(repeating: 0, count: n + 1), count: m + 1)
+        for i in 1 ... m {
+            for j in 1 ... n {
+                if text1[i - 1] == text2[j - 1] {
+                    dp[i][j] = 1 + dp[i - 1][j - 1]
+                }
+                else {
+                    dp[i][j] = max(dp[i - 1][j], dp[i][j - 1])
+                }
+            }
+        }
+        return dp[m][n]
+    }
+}
 
 
 class Solution {

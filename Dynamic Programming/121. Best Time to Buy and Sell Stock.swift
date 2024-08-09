@@ -30,6 +30,37 @@ import Foundation
 
 class Solution {
     func maxProfit(_ prices: [Int]) -> Int {
+        var minPrice = Int.max
+        var maxProfit = 0
+        for i in 0 ..< prices.count {
+            let currentPrice = prices[i]
+            if currentPrice < minPrice {
+                minPrice = currentPrice
+            }
+            maxProfit = max(maxProfit, currentPrice - minPrice)
+        }
+        return maxProfit
+    }
+}
+
+//DP Solution O(n^2) Time Limit Exceeded
+class Solution {
+    func maxProfit(_ prices: [Int]) -> Int {
+        var dp = Array(repeating: 0, count: prices.count)
+        for i in 1 ..< prices.count {
+            for j in 0 ..< i {
+                if prices[i] > prices[j] {
+                    dp[i] = max(dp[i], prices[i] - prices[j])
+                }
+            }
+        }
+        return dp.max()!
+    }
+}
+
+
+class Solution {
+    func maxProfit(_ prices: [Int]) -> Int {
         // var buyPrice = Int.max
         var localBuyPrice = Int.max
         var profit = 0

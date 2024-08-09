@@ -42,6 +42,7 @@ class Solution {
     }
 }
 
+//DP
 class Solution {
     func climbStairs(_ n: Int) -> Int {
         var dp = Array(repeating: 0, count: n + 1)
