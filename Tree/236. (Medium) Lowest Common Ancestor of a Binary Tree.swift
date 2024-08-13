@@ -11,6 +11,47 @@
 
 import Foundation
 
+
+//BFS
+class Solution {
+    func lowestCommonAncestor(_ root: TreeNode?, _ p: TreeNode?, _ q: TreeNode?) -> TreeNode? {
+        //BFS
+        var parantMap = [Int: TreeNode]()
+        var queue = [(node: TreeNode?, parantNode: TreeNode?)]()
+        queue.append((root, nil))
+        while !queue.isEmpty {
+            let currentElement = queue.removeFirst()
+            guard let currentNode = currentElement.node else { continue }
+            let parantNode = currentElement.parantNode
+            parantMap[currentNode.val] = parantNode
+            
+            if let leftNode = currentNode.left {
+                queue.append((leftNode, currentNode))
+            }
+            if let rightNode = currentNode.right {
+                queue.append((rightNode, currentNode))
+            }
+        }
+        var p = p
+        var q = q
+        var ancestors = [TreeNode]()
+        while p != nil {
+            ancestors.append(p!)
+            p = parantMap[p!.val]
+        }
+        
+        while q != nil {
+            if ancestors.contains(where: { $0.val == q!.val }) { break }
+            q = parantMap[q!.val]
+        }
+        return q
+    }
+}
+
+
+
+
+
 class Solution {
     
     var pVal: Int!

@@ -31,6 +31,28 @@ import Foundation
 
 class Solution {
     func merge(_ intervals: [[Int]]) -> [[Int]] {
+        let sortedIntervals = intervals.sorted(by: { $0[0] < $1[0] })
+        var mergedIntervals = [[Int]]()
+        mergedIntervals.append(sortedIntervals[0])
+        for i in 1 ..< sortedIntervals.count {
+            let lastMergedInterval = mergedIntervals.last!
+            let currentInterval = sortedIntervals[i]
+            if currentInterval[0] <= lastMergedInterval[1] {
+                let lastIndex = mergedIntervals.count - 1
+                let newRightBoundry = max(mergedIntervals[lastIndex][1], currentInterval[1])
+                mergedIntervals[lastIndex][1] = newRightBoundry
+            }
+            else {
+                mergedIntervals.append(currentInterval)
+            }
+        }
+        return mergedIntervals
+    }
+}
+
+
+class Solution {
+    func merge(_ intervals: [[Int]]) -> [[Int]] {
         
         let sortArr = intervals.sorted(by: {
             $0.first! < $1.first!

@@ -97,6 +97,13 @@
 		8D96FBF42C6369E800439518 /* 300. Longest Increasing Subsequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "300. Longest Increasing Subsequence.swift"; sourceTree = "<group>"; };
 		8D96FBF52C6472D700439518 /* 139. Word Break.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "139. Word Break.swift"; sourceTree = "<group>"; };
 		8D96FBF62C65AC8400439518 /* 2130. Maximum Twin Sum of a Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2130. Maximum Twin Sum of a Linked List.swift"; sourceTree = "<group>"; };
+		8D96FBF72C6707F800439518 /* 167. Two Sum II - Input Array Is Sorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "167. Two Sum II - Input Array Is Sorted.swift"; sourceTree = "<group>"; };
+		8D96FBF82C670E9300439518 /* 340. Longest Substring with At Most K Distinct Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "340. Longest Substring with At Most K Distinct Characters.swift"; sourceTree = "<group>"; };
+		8D96FBFA2C6A328800439518 /* 435. Non-overlapping Intervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "435. Non-overlapping Intervals.swift"; sourceTree = "<group>"; };
+		8D96FBFC2C6AEB9A00439518 /* 199. Binary Tree Right Side View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "199. Binary Tree Right Side View.swift"; sourceTree = "<group>"; };
+		8D96FBFD2C6AF3CB00439518 /* 1161. Maximum Level Sum of a Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1161. Maximum Level Sum of a Binary Tree.swift"; sourceTree = "<group>"; };
+		8D96FBFE2C6B07F300439518 /* 1926. Nearest Exit from Entrance in Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1926. Nearest Exit from Entrance in Maze.swift"; sourceTree = "<group>"; };
+		8D96FC002C6B218B00439518 /* 1372. Longest ZigZag Path in a Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1372. Longest ZigZag Path in a Binary Tree.swift"; sourceTree = "<group>"; };
 		8D9712AB27DE4C2600E46436 /* 228. Summary Ranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "228. Summary Ranges.swift"; sourceTree = "<group>"; };
 		8D994B5C25B9B5210065952C /* 204. Count Primes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "204. Count Primes.swift"; sourceTree = "<group>"; };
 		8D994B5D25B9C15C0065952C /* 268. Missing Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "268. Missing Number.swift"; sourceTree = "<group>"; };
@@ -274,6 +281,7 @@
 				8D803EE125BC0B800016A236 /* Design */,
 				8D951B8925B7DFD500E28A8A /* Dynamic Programming */,
 				8D0AAE672BC55B3D003FFF51 /* Enumeration */,
+				8D951B8F25B7E5D000E28A8A /* Tree */,
 				8DEBC6582C575FB3009F4ACA /* Graph */,
 				8D9D83C727D4B88E0084225C /* Greedy */,
 				8D951B8B25B7E0D600E28A8A /* HashTable */,
@@ -284,7 +292,6 @@
 				8D8B796727DCCF7A00E7C7CE /* Prefix Sum */,
 				8D951B9525B81A3F00E28A8A /* Stack */,
 				8D951B8D25B7E55300E28A8A /* String */,
-				8D951B8F25B7E5D000E28A8A /* Tree */,
 				8DA73DBC25B94FDF00595123 /* TwoPointers */,
 			);
 			sourceTree = "<group>";
@@ -376,6 +383,7 @@
 		8D951B8A25B7E01D00E28A8A /* Array */ = {
 			isa = PBXGroup;
 			children = (
+				8D96FBF92C6A327700439518 /* IntervalOverlap */,
 				8D6A6B6924A1DC1000AC9F9F /* 26. Remove Duplicates from Sorted Array.swift */,
 				8D6A6B6A24A1DCC500AC9F9F /* 27. Remove Element.swift */,
 				8D6A6B6C24A1DDD200AC9F9F /* 35. Search Insert Position.swift */,
@@ -477,6 +485,8 @@
 		8D951B8F25B7E5D000E28A8A /* Tree */ = {
 			isa = PBXGroup;
 			children = (
+				8D96FBFF2C6B217A00439518 /* DFS */,
+				8D96FBFB2C6AEB8900439518 /* BFS */,
 				8D6A6B7524A1E1C100AC9F9F /* 100. Same Tree.swift */,
 				8D6A6B7624A1E23200AC9F9F /* 101. Symmetric Tree.swift */,
 				8D6A6B8224A2095700AC9F9F /* 104. Maximum Depth of Binary Tree.swift */,
@@ -539,11 +549,36 @@
 			path = Stack;
 			sourceTree = "<group>";
 		};
+		8D96FBF92C6A327700439518 /* IntervalOverlap */ = {
+			isa = PBXGroup;
+			children = (
+				8DEBC63A2C4507E0009F4ACA /* 452. Minimum Number of Arrows to Burst Balloons.swift */,
+				8D96FBFA2C6A328800439518 /* 435. Non-overlapping Intervals.swift */,
+			);
+			path = IntervalOverlap;
+			sourceTree = "<group>";
+		};
+		8D96FBFB2C6AEB8900439518 /* BFS */ = {
+			isa = PBXGroup;
+			children = (
+				8D96FBFC2C6AEB9A00439518 /* 199. Binary Tree Right Side View.swift */,
+				8D96FBFD2C6AF3CB00439518 /* 1161. Maximum Level Sum of a Binary Tree.swift */,
+			);
+			path = BFS;
+			sourceTree = "<group>";
+		};
+		8D96FBFF2C6B217A00439518 /* DFS */ = {
+			isa = PBXGroup;
+			children = (
+				8D96FC002C6B218B00439518 /* 1372. Longest ZigZag Path in a Binary Tree.swift */,
+			);
+			path = DFS;
+			sourceTree = "<group>";
+		};
 		8D9D83C727D4B88E0084225C /* Greedy */ = {
 			isa = PBXGroup;
 			children = (
 				8D9D83C827D4B88E0084225C /* 409. Longest Palindrome.swift */,
-				8DEBC63A2C4507E0009F4ACA /* 452. Minimum Number of Arrows to Burst Balloons.swift */,
 			);
 			path = Greedy;
 			sourceTree = "<group>";
@@ -551,6 +586,7 @@
 		8DA73DBC25B94FDF00595123 /* TwoPointers */ = {
 			isa = PBXGroup;
 			children = (
+				8DEBC64D2C4D2AE2009F4ACA /* SlidingWindow */,
 				8DEBC6642C5A78B6009F4ACA /* Design */,
 				8D0AAE5D2BC3C86C003FFF51 /* Sort */,
 				8D9D83C427D4A3C80084225C /* 11. Container With Most Water.swift */,
@@ -558,9 +594,9 @@
 				8D0AAE6B2BC66C0D003FFF51 /* 680. Valid Palindrome II.swift */,
 				8DE4FAA82C2A98D400B1753C /* 408. Valid Word Abbreviation.swift */,
 				8D951B9425B8129400E28A8A /* 283. Move Zeroes.swift */,
-				8DEBC64D2C4D2AE2009F4ACA /* SlidingWindow */,
 				8DEBC6742C607F2E009F4ACA /* 392. Is Subsequence.swift */,
 				8DEBC6752C60895C009F4ACA /* 1679. Max Number of K-Sum Pairs.swift */,
+				8D96FBF72C6707F800439518 /* 167. Two Sum II - Input Array Is Sorted.swift */,
 			);
 			path = TwoPointers;
 			sourceTree = "<group>";
@@ -575,6 +611,7 @@
 				8DEBC6792C60B0C7009F4ACA /* 487. Max Consecutive Ones II.swift */,
 				8DEBC67A2C60B15A009F4ACA /* 1004. Max Consecutive Ones III.swift */,
 				8DEBC67B2C60B8DE009F4ACA /* 1493. Longest Subarray of 1's After Deleting One Element.swift */,
+				8D96FBF82C670E9300439518 /* 340. Longest Substring with At Most K Distinct Characters.swift */,
 			);
 			path = SlidingWindow;
 			sourceTree = "<group>";
@@ -605,6 +642,7 @@
 				8DEBC6602C58F249009F4ACA /* 1091. Shortest Path in Binary Matrix.swift */,
 				8DEBC6612C5926F7009F4ACA /* 994. Rotting Oranges.swift */,
 				8DEBC6662C5BADDD009F4ACA /* 286. Walls and Gates.swift */,
+				8D96FBFE2C6B07F300439518 /* 1926. Nearest Exit from Entrance in Maze.swift */,
 			);
 			path = BFS;
 			sourceTree = "<group>";

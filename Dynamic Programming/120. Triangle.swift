@@ -10,6 +10,32 @@ import Foundation
 
 class Solution {
     func minimumTotal(_ triangle: [[Int]]) -> Int {
+        //base case triangle[0][0]
+        //dp[i][j] = triangle[i][j] + min(dp[i - 1][j - 1], dp[i - 1][j])
+        //bottom up
+        var dp = Array(repeating: Array(repeating: 0, count: triangle.last!.count), count: triangle.count)
+        dp[0][0] = triangle[0][0]
+        for i in 1 ..< triangle.count {
+            for j in 0 ... i {
+                if j - 1 < 0 {
+                    dp[i][j] = triangle[i][j] + dp[i - 1][j]
+                }
+                else if j == i {
+                    dp[i][j] = triangle[i][j] + dp[i - 1][j - 1]
+                }
+                else {
+                    dp[i][j] = triangle[i][j] + min(dp[i - 1][j - 1], dp[i - 1][j])
+                }
+            }
+        }
+        print(dp)
+        return dp.last!.min()!
+    }
+
+}
+
+class Solution {
+    func minimumTotal(_ triangle: [[Int]]) -> Int {
         
         var map = [String: Int]()
 
