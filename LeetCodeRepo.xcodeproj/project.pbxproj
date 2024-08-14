@@ -104,6 +104,10 @@
 		8D96FBFD2C6AF3CB00439518 /* 1161. Maximum Level Sum of a Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1161. Maximum Level Sum of a Binary Tree.swift"; sourceTree = "<group>"; };
 		8D96FBFE2C6B07F300439518 /* 1926. Nearest Exit from Entrance in Maze.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1926. Nearest Exit from Entrance in Maze.swift"; sourceTree = "<group>"; };
 		8D96FC002C6B218B00439518 /* 1372. Longest ZigZag Path in a Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1372. Longest ZigZag Path in a Binary Tree.swift"; sourceTree = "<group>"; };
+		8D96FC012C6B4A8000439518 /* 1466. Reorder Routes to Make All Paths Lead to the City Zero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1466. Reorder Routes to Make All Paths Lead to the City Zero.swift"; sourceTree = "<group>"; };
+		8D96FC022C6B95A400439518 /* 875. Koko Eating Bananas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "875. Koko Eating Bananas.swift"; sourceTree = "<group>"; };
+		8D96FC032C6B9F6900439518 /* 128. Longest Consecutive Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "128. Longest Consecutive Sequence.swift"; sourceTree = "<group>"; };
+		8D96FC052C6C599500439518 /* 39. Combination Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "39. Combination Sum.swift"; sourceTree = "<group>"; };
 		8D9712AB27DE4C2600E46436 /* 228. Summary Ranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "228. Summary Ranges.swift"; sourceTree = "<group>"; };
 		8D994B5C25B9B5210065952C /* 204. Count Primes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "204. Count Primes.swift"; sourceTree = "<group>"; };
 		8D994B5D25B9C15C0065952C /* 268. Missing Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "268. Missing Number.swift"; sourceTree = "<group>"; };
@@ -256,6 +260,7 @@
 			children = (
 				8D0AAE6F2BC68167003FFF51 /* 22. Generate Parentheses.swift */,
 				8D0AAE702BC68CD2003FFF51 /* 46. Permutations.swift */,
+				8D96FC052C6C599500439518 /* 39. Combination Sum.swift */,
 			);
 			path = BackTracking;
 			sourceTree = "<group>";
@@ -423,6 +428,7 @@
 				8DEBC63C2C453E31009F4ACA /* 1207. Unique Number of Occurrences.swift */,
 				8DEBC67D2C61C55C009F4ACA /* 2215. Find the Difference of Two Arrays.swift */,
 				8DEBC67E2C61CA03009F4ACA /* 1657. Determine if Two Strings Are Close.swift */,
+				8D96FC032C6B9F6900439518 /* 128. Longest Consecutive Sequence.swift */,
 			);
 			path = HashTable;
 			sourceTree = "<group>";
@@ -478,6 +484,7 @@
 				8D6A6B8124A1E79F00AC9F9F /* 704. Binary Search.swift */,
 				8DEBC6332C438835009F4ACA /* 374. Guess Number Higher or Lower.swift */,
 				8DEBC6372C44EC01009F4ACA /* 162. Find Peak Element.swift */,
+				8D96FC022C6B95A400439518 /* 875. Koko Eating Bananas.swift */,
 			);
 			path = "Binary Search";
 			sourceTree = "<group>";
@@ -631,6 +638,7 @@
 				8DEBC6592C575FD7009F4ACA /* 1971. Find if Path Exists in Graph.swift */,
 				8DEBC65A2C578B4E009F4ACA /* 797. All Paths From Source to Target.swift */,
 				8DEBC65B2C57B8A6009F4ACA /* 133. Clone Graph.swift */,
+				8D96FC012C6B4A8000439518 /* 1466. Reorder Routes to Make All Paths Lead to the City Zero.swift */,
 			);
 			path = DFS;
 			sourceTree = "<group>";

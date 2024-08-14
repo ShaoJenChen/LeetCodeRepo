@@ -7,6 +7,63 @@
 
 import Foundation
 
+// 2024.8.13 do again
+class Solution {
+    func orangesRotting(_ grid: [[Int]]) -> Int {
+        //edge case
+        //empty box, (all zero )return -1
+        //not have rotting orange (all fresh) return -1
+        //not have fresh orange (all rotting) return 0
+        //maybe have orange not adjacent with rotting, return -1
+        //BFS
+        //Start i and j, not only one, traversal to find out all rotting orange i, j
+        //4 direction, and next is fresh orange
+        //
+        var flatGrid = grid.flatMap({ $0 })
+        guard flatGrid.contains(1) && flatGrid.contains(2) else {
+            if !flatGrid.contains(1) { return 0 }
+            return -1
+        }
+        var queue = [(row: Int, col: Int, min: Int)]()
+
+        //find out all rotting orange i,j
+        for i in 0 ..< grid.count {
+            for j in 0 ..< grid[i].count {
+                if grid[i][j] == 2 {
+                    queue.append((i, j, 0))
+                }
+            }
+        }
+        let m = grid.count
+        let n = grid[0].count
+        var resultMin = 0
+        var grid = grid
+        //BFS
+        while !queue.isEmpty {
+            let currentOrange = queue.removeFirst()
+            let currentRow = currentOrange.row
+            let currentCol = currentOrange.col
+            let currentMin = currentOrange.min
+            resultMin = max(resultMin, currentMin)
+            let directions: [(row: Int, col: Int)] =
+            [(currentRow, currentCol - 1), (currentRow, currentCol + 1), (currentRow - 1, currentCol), (currentRow + 1, currentCol)]
+
+            for direction in directions {
+                let nextRow = direction.row
+                let nextCol = direction.col
+                guard 0 ..< m ~= nextRow, 0 ..< n ~= nextCol else { continue }
+                guard grid[nextRow][nextCol] == 1 else { continue }
+                queue.append((nextRow, nextCol, currentMin + 1))
+                grid[nextRow][nextCol] = 2
+            }
+        }
+        if grid.flatMap({$0}).contains(1) { return -1 }
+        return resultMin
+    }
+}
+
+
+
 class Solution {
     func orangesRotting(_ grid: [[Int]]) -> Int {
         var grid = grid
