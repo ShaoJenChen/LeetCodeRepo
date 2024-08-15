@@ -108,6 +108,7 @@
 		8D96FC022C6B95A400439518 /* 875. Koko Eating Bananas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "875. Koko Eating Bananas.swift"; sourceTree = "<group>"; };
 		8D96FC032C6B9F6900439518 /* 128. Longest Consecutive Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "128. Longest Consecutive Sequence.swift"; sourceTree = "<group>"; };
 		8D96FC052C6C599500439518 /* 39. Combination Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "39. Combination Sum.swift"; sourceTree = "<group>"; };
+		8D96FC062C6D776200439518 /* 209. Minimum Size Subarray Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "209. Minimum Size Subarray Sum.swift"; sourceTree = "<group>"; };
 		8D9712AB27DE4C2600E46436 /* 228. Summary Ranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "228. Summary Ranges.swift"; sourceTree = "<group>"; };
 		8D994B5C25B9B5210065952C /* 204. Count Primes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "204. Count Primes.swift"; sourceTree = "<group>"; };
 		8D994B5D25B9C15C0065952C /* 268. Missing Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "268. Missing Number.swift"; sourceTree = "<group>"; };
@@ -619,6 +620,7 @@
 				8DEBC67A2C60B15A009F4ACA /* 1004. Max Consecutive Ones III.swift */,
 				8DEBC67B2C60B8DE009F4ACA /* 1493. Longest Subarray of 1's After Deleting One Element.swift */,
 				8D96FBF82C670E9300439518 /* 340. Longest Substring with At Most K Distinct Characters.swift */,
+				8D96FC062C6D776200439518 /* 209. Minimum Size Subarray Sum.swift */,
 			);
 			path = SlidingWindow;
 			sourceTree = "<group>";
