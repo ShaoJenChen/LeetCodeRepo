@@ -36,22 +36,16 @@ import Foundation
 
 class Solution {
     func groupAnagrams(_ strs: [String]) -> [[String]] {
+        var map = [String: [String]]()
+        var strs = Array(strs)
+        for i in 0 ..< strs.count {
+            let str = strs[i]
+            let sortStr = String(str.sorted())
+            map[sortStr, default: []].append(str)
+        }
         var result = [[String]]()
-        var hashValueMap = Set<Int>()
-        var dict = [Int: Int]()
-        for element in strs {
-            let elementHashValue = element.sorted().hashValue
-            if !hashValueMap.contains(elementHashValue) {
-                var newGroup = [String]()
-                newGroup.append(element)
-                result.append(newGroup)
-                hashValueMap.insert(elementHashValue)
-                dict[elementHashValue] = result.count - 1 //Index
-            }
-            else {
-                let index = dict[elementHashValue]!
-                result[index].append(element)
-            }
+        for value in map.values {
+            result.append(value)
         }
         return result
     }

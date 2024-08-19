@@ -75,6 +75,7 @@
 		8D8B796427DC19D100E7C7CE /* 2. Add Two Numbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "2. Add Two Numbers.swift"; sourceTree = "<group>"; };
 		8D8B796527DCB4D200E7C7CE /* 64. Minimum Path Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "64. Minimum Path Sum.swift"; sourceTree = "<group>"; };
 		8D8B796627DCCF7300E7C7CE /* 303. Range Sum Query - Immutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "303. Range Sum Query - Immutable.swift"; sourceTree = "<group>"; };
+		8D8D3BD92C73248C001B0795 /* 3136. Valid Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3136. Valid Word.swift"; sourceTree = "<group>"; };
 		8D93D67A27DF8B2800D21669 /* 219. Contains Duplicate II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "219. Contains Duplicate II.swift"; sourceTree = "<group>"; };
 		8D93FB5B27E741FD00FC9DC0 /* 56. Merge Intervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "56. Merge Intervals.swift"; sourceTree = "<group>"; };
 		8D93FB5C27E754C800FC9DC0 /* 94. Binary Tree Inorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "94. Binary Tree Inorder Traversal.swift"; sourceTree = "<group>"; };
@@ -109,6 +110,7 @@
 		8D96FC032C6B9F6900439518 /* 128. Longest Consecutive Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "128. Longest Consecutive Sequence.swift"; sourceTree = "<group>"; };
 		8D96FC052C6C599500439518 /* 39. Combination Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "39. Combination Sum.swift"; sourceTree = "<group>"; };
 		8D96FC062C6D776200439518 /* 209. Minimum Size Subarray Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "209. Minimum Size Subarray Sum.swift"; sourceTree = "<group>"; };
+		8D96FC072C6DDB4D00439518 /* 55. Jump Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "55. Jump Game.swift"; sourceTree = "<group>"; };
 		8D9712AB27DE4C2600E46436 /* 228. Summary Ranges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "228. Summary Ranges.swift"; sourceTree = "<group>"; };
 		8D994B5C25B9B5210065952C /* 204. Count Primes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "204. Count Primes.swift"; sourceTree = "<group>"; };
 		8D994B5D25B9C15C0065952C /* 268. Missing Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "268. Missing Number.swift"; sourceTree = "<group>"; };
@@ -474,6 +476,7 @@
 				8DEBC6562C55348D009F4ACA /* 2000. Reverse Prefix of Word.swift */,
 				8DEBC66E2C5E03F6009F4ACA /* 394. Decode String.swift */,
 				8DEBC66F2C5E0439009F4ACA /* 271. Encode and Decode Strings.swift */,
+				8D8D3BD92C73248C001B0795 /* 3136. Valid Word.swift */,
 			);
 			path = String;
 			sourceTree = "<group>";
@@ -587,6 +590,7 @@
 			isa = PBXGroup;
 			children = (
 				8D9D83C827D4B88E0084225C /* 409. Longest Palindrome.swift */,
+				8D96FC072C6DDB4D00439518 /* 55. Jump Game.swift */,
 			);
 			path = Greedy;
 			sourceTree = "<group>";
