@@ -76,6 +76,7 @@
 		8D8B796527DCB4D200E7C7CE /* 64. Minimum Path Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "64. Minimum Path Sum.swift"; sourceTree = "<group>"; };
 		8D8B796627DCCF7300E7C7CE /* 303. Range Sum Query - Immutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "303. Range Sum Query - Immutable.swift"; sourceTree = "<group>"; };
 		8D8D3BD92C73248C001B0795 /* 3136. Valid Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3136. Valid Word.swift"; sourceTree = "<group>"; };
+		8D8D3BDA2C733A92001B0795 /* 278. First Bad Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "278. First Bad Version.swift"; sourceTree = "<group>"; };
 		8D93D67A27DF8B2800D21669 /* 219. Contains Duplicate II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "219. Contains Duplicate II.swift"; sourceTree = "<group>"; };
 		8D93FB5B27E741FD00FC9DC0 /* 56. Merge Intervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "56. Merge Intervals.swift"; sourceTree = "<group>"; };
 		8D93FB5C27E754C800FC9DC0 /* 94. Binary Tree Inorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "94. Binary Tree Inorder Traversal.swift"; sourceTree = "<group>"; };
@@ -489,6 +490,7 @@
 				8DEBC6332C438835009F4ACA /* 374. Guess Number Higher or Lower.swift */,
 				8DEBC6372C44EC01009F4ACA /* 162. Find Peak Element.swift */,
 				8D96FC022C6B95A400439518 /* 875. Koko Eating Bananas.swift */,
+				8D8D3BDA2C733A92001B0795 /* 278. First Bad Version.swift */,
 			);
 			path = "Binary Search";
 			sourceTree = "<group>";

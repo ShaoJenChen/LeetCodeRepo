@@ -58,36 +58,16 @@ import Foundation
  *     }
  * }
  */
+
 class Solution {
     func isSameTree(_ p: TreeNode?, _ q: TreeNode?) -> Bool {
-        var valuesP = [Int?]()
-        var valuesQ = [Int?]()
-        
-        func preorder(node: TreeNode?, values: inout [Int?]) {
-            
-            if let rootValue = node?.val {
-                values.append(rootValue)
-            }
-            
-            if let leftNode = node?.left {
-                preorder(node: leftNode, values: &values)
-            }
-            else {
-                values.append(nil)
-            }
-            
-            if let rightNode = node?.right {
-                preorder(node: rightNode, values: &values)
-            }
-            else {
-                values.append(nil)
-            }
-            
+        //preorder
+        if p == nil, q != nil { return false }
+        if p != nil, q == nil { return false }
+        if p == nil, q == nil { return true }
+        if p!.val == q!.val {
+            return isSameTree(p?.left, q?.left) && isSameTree(p?.right, q?.right)
         }
-        
-        preorder(node: p, values: &valuesP)
-        preorder(node: q, values: &valuesQ)
-        
-        return valuesP == valuesQ
+        return false
     }
 }
