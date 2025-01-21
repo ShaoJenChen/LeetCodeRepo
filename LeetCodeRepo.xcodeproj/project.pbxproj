@@ -29,6 +29,7 @@
 		8D3349AE27E0DEDF00B9F4DB /* 263. Ugly Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "263. Ugly Number.swift"; sourceTree = "<group>"; };
 		8D3ACF2725B852DB00994980 /* 202. Happy Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "202. Happy Number.swift"; sourceTree = "<group>"; };
 		8D3ACF2825B8657200994980 /* 191. Number of 1 Bits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "191. Number of 1 Bits.swift"; sourceTree = "<group>"; };
+		8D51F36C2D3FF57600966A90 /* 19. Remove Nth Node From End of List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "19. Remove Nth Node From End of List.swift"; sourceTree = "<group>"; };
 		8D5B187224A37629002F1D1D /* 111. Minimum Depth of Binary Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "111. Minimum Depth of Binary Tree.swift"; sourceTree = "<group>"; };
 		8D6A6B6224A1954B00AC9F9F /* 1. Two Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1. Two Sum.swift"; sourceTree = "<group>"; };
 		8D6A6B6324A1D7AC00AC9F9F /* 7. Reverse Integer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "7. Reverse Integer.swift"; sourceTree = "<group>"; };
@@ -613,6 +614,7 @@
 				8DEBC6742C607F2E009F4ACA /* 392. Is Subsequence.swift */,
 				8DEBC6752C60895C009F4ACA /* 1679. Max Number of K-Sum Pairs.swift */,
 				8D96FBF72C6707F800439518 /* 167. Two Sum II - Input Array Is Sorted.swift */,
+				8D51F36C2D3FF57600966A90 /* 19. Remove Nth Node From End of List.swift */,
 			);
 			path = TwoPointers;
 			sourceTree = "<group>";
