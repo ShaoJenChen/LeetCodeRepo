@@ -77,6 +77,7 @@
 		8D8B796627DCCF7300E7C7CE /* 303. Range Sum Query - Immutable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "303. Range Sum Query - Immutable.swift"; sourceTree = "<group>"; };
 		8D8D3BD92C73248C001B0795 /* 3136. Valid Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3136. Valid Word.swift"; sourceTree = "<group>"; };
 		8D8D3BDA2C733A92001B0795 /* 278. First Bad Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "278. First Bad Version.swift"; sourceTree = "<group>"; };
+		8D8D3BDB2C7449D5001B0795 /* 3046. Split the Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "3046. Split the Array.swift"; sourceTree = "<group>"; };
 		8D93D67A27DF8B2800D21669 /* 219. Contains Duplicate II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "219. Contains Duplicate II.swift"; sourceTree = "<group>"; };
 		8D93FB5B27E741FD00FC9DC0 /* 56. Merge Intervals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "56. Merge Intervals.swift"; sourceTree = "<group>"; };
 		8D93FB5C27E754C800FC9DC0 /* 94. Binary Tree Inorder Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "94. Binary Tree Inorder Traversal.swift"; sourceTree = "<group>"; };
@@ -412,6 +413,7 @@
 				8DEBC64F2C4D7759009F4ACA /* 734. Sentence Similarity.swift */,
 				8DEBC6652C5A842A009F4ACA /* 346. Moving Average from Data Stream.swift */,
 				8DEBC67F2C61FF07009F4ACA /* 334. Increasing Triplet Subsequence.swift */,
+				8D8D3BDB2C7449D5001B0795 /* 3046. Split the Array.swift */,
 			);
 			path = Array;
 			sourceTree = "<group>";

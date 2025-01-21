@@ -29,6 +29,37 @@ import Foundation
  For the purpose of this problem, we will return 0 when needle is an empty string. This is consistent to C's strstr() and Java's indexOf().
  */
 
+
+class Solution {
+    func strStr(_ haystack: String, _ needle: String) -> Int {
+        
+        var haystack = Array(haystack)
+        var needle = Array(needle)
+
+        func isOccurrence(_ startIndex: Int) -> Bool {
+            var pointer1 = startIndex
+            var pointer2 = 0
+            while pointer2 < needle.count, pointer1 < haystack.count,
+                haystack[pointer1] == needle[pointer2] {
+                pointer1 += 1
+                pointer2 += 1
+            }
+            return pointer2 == needle.count
+        }
+
+        for index in 0 ..< haystack.count {
+            let currentChar = haystack[index]
+            if currentChar == needle[0] {
+                if isOccurrence(index) {
+                    return index
+                }
+            }
+        }
+        return -1
+    }
+}
+
+
 class Solution {
     func strStr(_ haystack: String, _ needle: String) -> Int {
         
