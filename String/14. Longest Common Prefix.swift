@@ -81,3 +81,18 @@ class Solution {
         return result
     }
 }
+
+
+
+class Solution {
+    func longestCommonPrefix(_ strs: [String]) -> String {
+        func lcp(_ aStr: String, _ bStr: String) -> String {
+            return aStr.commonPrefix(with: bStr)
+        }
+        var commonPrefix = strs[0] 
+        for i in 1 ..< strs.count {
+            commonPrefix = lcp(commonPrefix, strs[i])
+        }
+        return commonPrefix
+    }
+}
